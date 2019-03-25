@@ -1,0 +1,49 @@
+
+// Frogwatch Colors
+$primary-color-light: #969BBF;
+$primary-color: #5a5d73;
+$primary-color-dark: #282933 ;//191a20;
+
+$accent-color-light: #C2CE5C; //#BACA16; // for shadow
+$accent-color: #aebd15;
+$accent-color-dark: #737D0E;
+$accent-color-darker: #393D07; // for active state
+
+
+div.wy-side-nav-search {
+    background-color: $accent-color;
+}
+
+nav.wy-nav-side {
+  background-color: $primary-color;
+}
+h1 {
+  color: $accent-color;
+}
+
+.wy-breadcrumbs, .rst-content {
+  a {
+    color: $accent-color;
+
+    &:visited {
+      color: $accent-color;
+    }
+    &:hover {
+      color: $accent-color-dark;
+    }
+  }
+}
+
+.wy-menu-vertical {
+  a:active {
+    background-color: $accent-color;
+  }
+  a:hover {
+    background-color: $primary-color-dark;
+  }
+}
+
+.rst-versions {
+  color: #fcfcfc;
+  background: $primary-color-dark;
+}
