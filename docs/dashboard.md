@@ -1,5 +1,6 @@
 
-# Projectstructuur
+# Projecten
+## Projectstructuur
 
 Trillingsmetingen via Frogwatch worden gedaan vanuit de context van een project.
 Projecten zijn ingedeeld in *clusters* die elk hun eigen instellingen hebben.
@@ -23,6 +24,50 @@ Het aanmaken van clusters en meetpunten gebeurt in het `Clusters` menu binnen ee
 Zodra er meetdata is ontvangen voor 1 van de meetpunten binnen een cluster wordt de meetconfiguratie gelocked en kan het cluster niet meer verwijderd worden.
 
 Een meter kan op elk moment verplaatst worden naar een ander meetpunt, maar kan op een later tijdstip ook weer teruggeplaatst worden in een vorig meetpunt door opnieuw op het link-icoon te klikken.
+
+## Meetconfiguratie
+
+Per cluster kan er een meetconfiguratie worden ingesteld. In de configuratie kan bepaald worden
+
+* Wanneer er gemeten wordt: op welke dagen en tussen welke tijdstippen
+* Hoe er gemeten wordt: Volgens welke methode, in welke eenheid
+* Hoe wordt de meting getoetst: Wordt er een norm gebruikt, en welke?
+
+### Meetperiode
+
+Er kan ingesteld worden op welke dagen van de week er gemeten wordt en vervolgens tussen welke tijdstippen op die dagen de meetpunten actief zijn. Buiten deze periode zijn de meters in stroombesparingsstand. Dat wil zeggen dat ze alleen af en toe verbinding maken met het Frogwatch Dashboard om te checken of er nieuwe instellingen zijn.
+
+### Meetmethode
+
+Op dit moment worden er 4 meetmethodes ondersteund:
+
+1. **Schademeting Snelheid (SBR A/C).** Meten met een schadenorm in het snelheidsdomein werkt volgens de SBR A richtlijn. Dat wil zeggen dat er elke seconde één datapunt per as (x, y en z richting) wordt uitgerekend. Een datapunt bestaat uit de dominante frequentie en de bijbehorende topwaarde (snelheid of acceleratie) over een window van 1 seconde. De dominante frequentie wordt bepaald aan de hand van de norm. De norm is gedefinieerd over het bereik van 1 - 100 Hz. De frequentie met de meeste energie ten op zichte van de norm is de dominante frequentie (dit wordt bepaald via een Fast Fourier Transformatie). De topwaarde wordt bepaald in het tijdsdomein. Voor meer informatie zie de officiële documentatie over de SBR A en C richtlijnen. Ook kan er zonder norm gemeten worden. Dat wil zeggen dat de frequenties niet gewogen worden en dat er geen normoverschrijdingen kunnen plaatsvinden.
+2. **Schademeting Acceleratie (SBR C).** In deze methode wordt er gemeten in het acceleratiedomein, verder is deze methode equivalent aan *Schademeting Snelheid*. Deze mode is geschikt voor SBR C-acceleratie normen.
+3. **Hindermeting (SBR B).** Deze methode gaat volgens de SBR B richtlijn. Dat wil zeggen dat er elke 30 seconde een datapunt wordt uitgerekend waar een Vmax uit volgt. Dit is een dimensieloos  getal gerelateerd aan de trillingssnelheid (Een effectieve waarde gemiddeld over 30 seconde). Deze methode is dus te gebruiken met SBR B normen en ook zonder norm.
+4. **Kalibratie.** Kies deze meetmethode als uw meters gekalibreerd moeten worden. Dit zorgt automatisch voor de juiste meetinstellingen. Ook wordt in deze methode de trillingsdata niet verstuurd naar het Frogwatch Dashboard om de kalibratie sneller te laten verlopen.
+
+### Toetsing
+
+Kies in deze sectie een van de normen (of geen) die beschikbaar zijn voor de gekozen meetmethode. Voor SBR A en C normen kunnen tevens veiligheidsfactoren worden ingesteld. Dit zorgt er effectief voor dat de norm verschoven wordt.
+
+### Bewaking
+
+Als er een norm is ingesteld wordt de `Bewaking`-sectie zichtbaar.  In deze sectie kan ingesteld worden wie er een melding krijgt als het trillingsniveau een bepaald percentage van de norm bereikt. En hoe vaak dit (maximaal) moet gebeuren.
+
+#### Alarmeringsgevoeligheid
+
+Het minimaal aantal overschrijdingen dat moet optreden binnen een minuut voordat er een alarm wordt uitgestuurd. Als er bijvoorbeeld `3` wordt ingesteld, dan wordt er alleen een overschrijdingsbericht gestuurd als er binnen 1 minuut 3x een bepaald trillingsniveau is gemeten. Na elke verstuurd bericht is er een back-off periode waarin geen meldingen worden gestuurd naar contactpersonen, ook al zijn er wél overschrijdingen. Overschrijdingen worden echter nog wel doorgegeven aan Frogwatch Dashboard.
+
+#### Alarminterval
+
+De minimale tijd in minuten die tussen elk opvolgend bericht(sms of email) moet zitten. Deze instelling werkt als een rate-limit en zorgt er voor dat contactpersonen niet te vaak meldingen krijgen.
+
+#### Contactpersonen
+
+In de contactpersonen tabel kan ingesteld worden wie er een bericht krijgt bij een bepaald trillingsniveau ten opzichte van de norm. De norm is hierbij 100%. Dus om meldingen te ontvangen als het trillingsniveau bijna een normoverschrijding veroorzaakt vul je bijvoorbeeld `95%` in voor een bepaald contactpersoon.
+
+Contactpersonen worden per project toegevoegd. Dit gebeurt in het `Toegang` menu binnen het project. Daar kan ook ingesteld worden of contactpersonen via sms of email gealarmeerd worden, en op welke dagen dit wel of niet mag gebeuren.
+
 
 ## ProjectInfo
 
@@ -48,6 +93,7 @@ Frogwatch Dashboard kan automatische rapportages genereren en versturen. Rapport
 Een rapport kan voorzien worden van beschrijvingen en foto's en afbeeldingen.
 
 Naast automatische rapportage kun je ook een rapport handmatig genereren voor willekeurige tijdsbereiken. Bijvoorbeeld over het laatste uur, of over een hele maand. Handmatige rapportages worden niet automatisch verstuurd maar deze zijn wel te downloaden zodat je ze eventueel zelf kunt versturen.
+
 
 
 # Trillingsnormen
@@ -79,48 +125,7 @@ Er verschijnt een popup met 7 invoer velden. De waardes A1, A2 en A3 voor zowel 
 
  ![SBR B Norm](/img/norm_b.png)
 
-# Meetconfiguratie
 
-Per cluster kan er een meetconfiguratie worden ingesteld. In de configuratie kan bepaald worden
-
-* Wanneer er gemeten wordt: op welke dagen en tussen welke tijdstippen
-* Hoe er gemeten wordt: Volgens welke methode, in welke eenheid
-* Hoe wordt de meting getoetst: Wordt er een norm gebruikt, en welke?
-
-## Meetperiode
-
-Er kan ingesteld worden op welke dagen van de week er gemeten wordt en vervolgens tussen welke tijdstippen op die dagen de meetpunten actief zijn. Buiten deze periode zijn de meters in stroombesparingsstand. Dat wil zeggen dat ze alleen af en toe verbinding maken met het Frogwatch Dashboard om te checken of er nieuwe instellingen zijn.
-
-## Meetmethode
-
-Op dit moment worden er 4 meetmethodes ondersteund:
-
-1. **Schademeting Snelheid (SBR A/C).** Meten met een schadenorm in het snelheidsdomein werkt volgens de SBR A richtlijn. Dat wil zeggen dat er elke seconde één datapunt per as (x, y en z richting) wordt uitgerekend. Een datapunt bestaat uit de dominante frequentie en de bijbehorende topwaarde (snelheid of acceleratie) over een window van 1 seconde. De dominante frequentie wordt bepaald aan de hand van de norm. De norm is gedefinieerd over het bereik van 1 - 100 Hz. De frequentie met de meeste energie ten op zichte van de norm is de dominante frequentie (dit wordt bepaald via een Fast Fourier Transformatie). De topwaarde wordt bepaald in het tijdsdomein. Voor meer informatie zie de officiële documentatie over de SBR A en C richtlijnen. Ook kan er zonder norm gemeten worden. Dat wil zeggen dat de frequenties niet gewogen worden en dat er geen normoverschrijdingen kunnen plaatsvinden.
-2. **Schademeting Acceleratie (SBR C).** In deze methode wordt er gemeten in het acceleratiedomein, verder is deze methode equivalent aan *Schademeting Snelheid*. Deze mode is geschikt voor SBR C-acceleratie normen.
-3. **Hindermeting (SBR B).** Deze methode gaat volgens de SBR B richtlijn. Dat wil zeggen dat er elke 30 seconde een datapunt wordt uitgerekend waar een Vmax uit volgt. Dit is een dimensieloos  getal gerelateerd aan de trillingssnelheid (Een effectieve waarde gemiddeld over 30 seconde). Deze methode is dus te gebruiken met SBR B normen en ook zonder norm.
-4. **Kalibratie.** Kies deze meetmethode als uw meters gekalibreerd moeten worden. Dit zorgt automatisch voor de juiste meetinstellingen. Ook wordt in deze methode de trillingsdata niet verstuurd naar het Frogwatch Dashboard om de kalibratie sneller te laten verlopen.
-
-## Toetsing
-
-Kies in deze sectie een van de normen (of geen) die beschikbaar zijn voor de gekozen meetmethode. Voor SBR A en C normen kunnen tevens veiligheidsfactoren worden ingesteld. Dit zorgt er effectief voor dat de norm verschoven wordt.
-
-## Bewaking
-
-Als er een norm is ingesteld wordt de `Bewaking`-sectie zichtbaar.  In deze sectie kan ingesteld worden wie er een melding krijgt als het trillingsniveau een bepaald percentage van de norm bereikt. En hoe vaak dit (maximaal) moet gebeuren.
-
-### Alarmeringsgevoeligheid
-
-Het minimaal aantal overschrijdingen dat moet optreden binnen een minuut voordat er een alarm wordt uitgestuurd. Als er bijvoorbeeld `3` wordt ingesteld, dan wordt er alleen een overschrijdingsbericht gestuurd als er binnen 1 minuut 3x een bepaald trillingsniveau is gemeten. Na elke verstuurd bericht is er een back-off periode waarin geen meldingen worden gestuurd naar contactpersonen, ook al zijn er wél overschrijdingen. Overschrijdingen worden echter nog wel doorgegeven aan Frogwatch Dashboard.
-
-### Alarminterval
-
-De minimale tijd in minuten die tussen elk opvolgend bericht(sms of email) moet zitten. Deze instelling werkt als een rate-limit en zorgt er voor dat contactpersonen niet te vaak meldingen krijgen.
-
-### Contactpersonen
-
-In de contactpersonen tabel kan ingesteld worden wie er een bericht krijgt bij een bepaald trillingsniveau ten opzichte van de norm. De norm is hierbij 100%. Dus om meldingen te ontvangen als het trillingsniveau bijna een normoverschrijding veroorzaakt vul je bijvoorbeeld `95%` in voor een bepaald contactpersoon.
-
-Contactpersonen worden per project toegevoegd. Dit gebeurt in het `Toegang` menu binnen het project. Daar kan ook ingesteld worden of contactpersonen via sms of email gealarmeerd worden, en op welke dagen dit wel of niet mag gebeuren.
 # Statusoverzicht Meters
 
 # Trillingsdata inzien
