@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-flow: row wrap; justify-content: space-around">
 <div>
-<img src="img/frogwatch-meter.png" alt="Frogwatch Meter" width="200"/>
+<img src="../img/frogwatch-meter.png" alt="Frogwatch Meter" width="200"/>
 </div>
 <div>
-<img src="img/frogwatch-back.png" alt="Frogwatch Meter" width="200"/>
+<img src="../img/frogwatch-back.png" alt="Frogwatch Meter" width="200"/>
 </div>
 </div>
 
@@ -89,7 +89,7 @@ Druk nogmaals om de meter te starten (indien gestopt) of te stoppen (indien stan
 
 # Battery Pack
 
-<img src="img/batterypack1.png" alt="Frogwatch Battery Pack" width="400"/>
+<img src="../img/batterypack1.png" alt="Frogwatch Battery Pack" width="400"/>
 
 ## Specificaties
 
@@ -133,7 +133,7 @@ De battery packs zijn beveiligd tegen kortsluiting, overbelasting, overcharge en
 
 # 12V voedingsadapter
 
-<img src="img/voedingsadapter2.jpg" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedingsadapter" width="400"/>
+<img src="../img/voedingsadapter2.jpg" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedingsadapter" width="400"/>
 
 ## Specificaties
 
@@ -152,7 +152,7 @@ De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan
 
 # Li-ion oplader
 
-<img src="img/li_ion_oplader.jpg" alt="Frogwatch Li-ion oplader" title="Frogwatch Li-ion oplader" width="400"/>
+<img src="../img/li_ion_oplader.jpg" alt="Frogwatch Li-ion oplader" title="Frogwatch Li-ion oplader" width="400"/>
 
 ## Specificaties
 
