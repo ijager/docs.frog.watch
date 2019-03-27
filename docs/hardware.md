@@ -9,6 +9,84 @@
 </div>
 </div>
 
+## Specificaties
+
+* Afmetingen: 180x123x59mm
+* Massa (inclusief batterij): 1200g
+* Meetbereik (amplitude): 25000 mm/s^2
+* Meetbereik (frequentie): 1-300Hz
+* Ruisvloer: 0.06mm/s
+
+Een uitgebreid overzicht van de vind je op de [Frogwatch Facts pagina](https://www.frog.watch/facts/) .
+
+## Aansluitingen extern
+
+De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de aandacht trekt van vandalen of nieuwschierige passanten. Dit is ook de reden dat er aan de buitenkant geen display, knoppen, leds etc zichtbaar zijn. Er zijn slechts twee (optionele) aansluitingen aan de onderkant. De [interne aansluitingen](#aansluitingen-intern) zijn alleen toegankelijk als je de meter opent.
+
+### DC jack: 12V voeding
+Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](#battery-pack) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
+
+### SMA connector: externe antenne
+
+Het kan voorkomen dat er geen of onvoldoende netwerkbereik is op een meetlocatie. Bijvoorbeeld bij ondergrondse metingen of in afgeschermde ruimtes. In deze situaties kan de antenne (die normaal binnenin de Frogwatch Meter zit) via een [verlengkabel](https://www.frog.watch/product/frogwatch-externe-antennekabel/) worden aangesloten:
+
+1. Schroef de antenne en het koppelstukje waarmee deze aan de meter zit los.
+2. Koppel de interne kabel aan de binnenkant van de doorvoerconnector
+3. Aan de buitenkant van de meter: koppel de verlengkabel aan en sluit hier de antenne weer op aan.
+4. Test of de meter binnen enkele minuten na opstarten online komt.
+
+Als de meter langere tijd heeft gemeten zonder netwerkverbinding kan dit wat langer duren, omdat er dan meer data is om uit te wisselen.
+
+## Aansluitingen intern
+Binnen het deksel zie je een metalen kastje met een USB-connector, twee status LEDs en de start/stop knop. Daarnaast uiteraard de mogelijkheid om de batterij aan te sluiten.
+
+### Aansluiten batterij
+De connector van de batterij past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
+
+Pak altijd de connector zelf vast en trek niet aan de kabels. Er is niet veel kracht nodig om de connector los- en vast te maken: om de batterij los te koppelen druk je op de klikverbinding zodat deze gemakkelijk los komt.
+
+#### Standby
+Zolang de batterij aangesloten is, zal de Frogwatch periodiek online komen, ook als er geen meting actief is. Dit maakt het mogelijk om metingen op afstand te starten. In deze standby stand gaat het systeem veel langer mee dan tijdens het meten, maar als je de meter volledig uit wilt zetten kun je het beste de batterij loskoppelen.
+
+### Status LEDs
+
+De twee status LEDs zijn bedoeld om tijdens het plaatsen of een snelle inspectie te zien wat de meter aan het doen is. Uitgebreidere informatie is beschikbaar op het [Frogwatch Dashboard](../dashboard/) .
+
+Tijdens opstarten:
+
+* **Rode lampje brandt, groen is uit of knippert.**
+Dit geeft de eerste ca 5 seconden van het opstarten aan. Bij een firmware update kan dit iets langer duren.
+* **Beide lampjes branden.**
+De meter is aan het opstarten. Dit duurt maximaal 10 seconden.
+* **Beide lampjes knipperen om de beurt.**
+De meter is opgestart, maar is nog bezig met gegevens uitwisselen met het frogwatch dashboard. De meter haalt de nieuwste instellingen op vanaf de server en stuurt eventuele meetdata van een vorige meting op voordat de meter gestart kan worden.
+
+Na opstarten:
+
+* **Beide lampjes staan uit.**
+Dit is normaal. Om stroom te besparen staan ze (behalve tijdens het opstarten) standaard uit. Als je op [de Status / Start / Stop knop](#status-start-stop-knop) drukt laat de Frogwatch gedurende 10 seconden zijn status zien.
+
+* **Na druk op de knop: rode lampje brandt.**
+De meting is niet actief, maar de meter is wel klaar voor gebruik.
+
+* **Na druk op de knop: groene lampje brandt.**
+De meting is standby: de meting wordt automatisch gestart op het tijdstip dat via het dashboard is ingesteld.
+
+* **Na druk op de knop: groene lampje knippert.**
+De meter is op dit moment aan het meten.
+
+* **Na druk op de knop: rode lampje knippert.**
+De meter moet nog worden ingesteld via het dashboard. Er kan geen meting gestart worden.
+
+* **Na druk op de knop: rode lampje knippert snel.**
+Er is een fout opgetreden, de meter is mogelijk defect. Kijk op het dashboard of er meer informatie beschikbaar is.
+
+### Status / Start / Stop knop
+Als de meter is opgestart (lampjes zijn uit), kun je de meter bedienen via de drukknop. Druk eenmaal om de status uit te lezen (de knop even ingedrukt houden tot de lampjes aan gaan).
+
+Druk nogmaals om de meter te starten (indien gestopt) of te stoppen (indien standby of actief).
+
+
 # Battery Pack
 
 <img src="/img/batterypack1.png" alt="Frogwatch Battery Pack" width="400"/>
@@ -38,15 +116,15 @@ De makkelijkste manier is om de batterij aan een Frogwatch meter te verbinden. D
 
 * ### Via een Frogwatch Li-ion oplader
 
-De Li-ion oplader is een optionele accessoire die apart verkrijgbaar is via de [Frogwatch Webshop](https://www.frog.watch/product/frogwatch-li-ion-oplader/). Dit is vooral handig in combinatie met de los verkrijgbare [reserve battery packs](https://www.frog.watch/product/frogwatch-battery-pack/).
+De [Li-ion oplader](#li-ion-oplader) is een optionele accessoire die [apart verkrijgbaar](https://www.frog.watch/product/frogwatch-li-ion-oplader/) is via de Frogwatch Webshop. Dit is vooral handig in combinatie met de [los verkrijgbare reserve battery packs](https://www.frog.watch/product/frogwatch-battery-pack/).
 
-Zo kun je bijvoorbeeld een reserve batterij opladen op kantoor zodat je deze op de meetlocatie snel kunt verwisselen met de lege batterij.
+Zo kun je bijvoorbeeld een reserve batterij opladen op kantoor zodat je deze op de meetlocatie snel kunt verwisselen met een lege batterij.
 
 ## Batterijduur
 
 De batterijdduur is sterk afhankelijk van hoe de Frogwatch meter is ingesteld: hoe meer uren op een dag de meter actief is, des te sneller is de batterij leeg. Tijdens een gemiddeld meetproject is dit ca 14-30 dagen.
 
-Het opladen van de batterij kan tot ca 8 uur duren als deze volledig leeg is. Opladen via de Frogwatch Meter is ongeveer even snel als via de Li-ion oplader.
+Het opladen van de batterij kan tot ca 8 uur duren als deze volledig leeg is. Opladen via de [Frogwatch Meter](#frogwatch-meter) is ongeveer even snel als via de [Li-ion oplader](#li-ion-oplader).
 
 ## Beveiliging
 
@@ -67,6 +145,8 @@ De 12V voedingsadapter word standaard meegeleverd met de Frogwatch meter en is b
 Daarnaast kan de Frogwatch meter automatisch de batterij opladen wanneer de voedingsadapter verbonden is.
 Reserve adapters zijn [los verkrijgbaar in de webshop](https://www.frog.watch/product/frogwatch-12v-voedingsadapter/).
 
+De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan worden aan de meter. Hiermee weet je zeker dat de stroomkabel stevig bevestigd is en niet lostrilt.
+
 **Let op:** De 12V adapter is alleen bedoeld voor gebruik in combinatie met de Frogwatch meter en kan niet op een batterij worden aangesloten. Om losse batterijen op te laden heb je de Frogwatch Li-ion oplader nodig.
 
 
@@ -77,6 +157,12 @@ Reserve adapters zijn [los verkrijgbaar in de webshop](https://www.frog.watch/pr
 ## Specificaties
 
 Deze oplader is speciaal geselecteerd om Frogwatch battery packs op te laden. De laadstroom bedraagt 3A, het duurt ongeveer 5-8 uur om een lege batterij volledig op te laden.
+
+## Aansluiten
+
+De connector past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
+
+Pak altijd de connector zelf vast en trek niet aan de kabels. Er is niet veel kracht nodig om de connector los- en vast te maken: om de batterij los te koppelen druk je op de klikverbinding zodat deze gemakkelijk los komt.
 
 ## Gebruik
 
