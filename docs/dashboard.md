@@ -24,13 +24,13 @@ Zodra er meetdata is ontvangen voor 1 van de meetpunten binnen een cluster wordt
 
 Een meter kan op elk moment verplaatst worden naar een ander meetpunt, maar kan op een later tijdstip ook weer teruggeplaatst worden in een vorig meetpunt door opnieuw op het link-icoon te klikken.
 
-# ProjectInfo
+## ProjectInfo
 
 Op de `Info` pagina binnen een project kunnen projectdetails en metadata worden ingevuld. Ook kunnen er documenten worden geüpload, bijvoorbeeld meetplannen. Deze pagina kan worden ingezien door opdrachtgevers of andere mensen met een account die toegang hebben gekregen tot dit project.
 
 Als het project afgelopen is kan het project hier gearchiveerd worden. Daardoor verdwijnt het project uit de lijst met actieve projecten. Het project kan op elk moment weer actief gemaakt worden mocht dat nodig zijn.
 
-# Meldingen
+## Meldingen
 
 De `Meldingen` pagina toont berichten afkomstig van de Meters die actief zijn in het project.
 
@@ -41,7 +41,7 @@ Er zijn 4 soorten meldingen:
 3. **Error** Als er iets fout gaat tijdens het meten of met de normale operationele activiteiten van een Frogwatch Meter wordt dat gemeld doormiddel van *Error* meldingen. De meters proberen te detecteren wat er precies fout gaat of wat er kapot is en melden dat op deze manier. Denk aan een kapotte sensor of een corrupte SD kaart. Voor deze meldingen zijn meestal acties vereist van de gebruiker. En eventueel moet de meter een servicebeurt krijgen.
 4. **Warning** berichten zijn verwachte uitzonderingen die af en toe kunnen gebeuren maar waar de meter zelf van kan herstellen. Deze kunnen vaak beschouwd worden als diagnostische meldingen.
 
-# Rapportage
+## Rapportage
 
 Frogwatch Dashboard kan automatische rapportages genereren en versturen. Rapportages zijn per dag of per week. Wat er in het rapport staat is flexibel. Er kan per rapport gekozen worden welke meetpunten meegenomen worden voor die rapportage en welke contactpersonen de rapportage moeten ontvangen. Notificaties voor nieuwe beschikbare rapporten wordt 's ochtends rond 8 uur verstuurd per email.
 
@@ -49,18 +49,19 @@ Een rapport kan voorzien worden van beschrijvingen en foto's en afbeeldingen.
 
 Naast automatische rapportage kun je ook een rapport handmatig genereren voor willekeurige tijdsbereiken. Bijvoorbeeld over het laatste uur, of over een hele maand. Handmatige rapportages worden niet automatisch verstuurd maar deze zijn wel te downloaden zodat je ze eventueel zelf kunt versturen.
 
-# Trillingsnormen instellen
+
+# Trillingsnormen
 
 Via Frogwatch Dashboard kunnen trillingsnormen flexibel gedefinieerd worden.  Op deze manier kun je heel gemakkelijk meten via verschillende normen. Op dit moment wordt er onderscheid gemaakt tussen Schadenormen en Hindernormen.  Schadenormen kunnen zowel in het acceleratiedomein als in het snelheidsdomein gedefinieerd worden zodat SBR A en SBR C beide zijn ondersteund.
 Met hindernormen wordt volgens de SBR B richtlijn gemeten.
 
 ## Schadenormen (SBR A en SBR C)
 
-
+Ga naar het hoofdmenu item `Normen` en klik op `Schadenormen`. Hier wordt een lijst getoond van alle normen die aangemaakt zijn.
 
 ### Norm Definiëren
 
-Ga naar het hoofdmenu item `Normen` en klik op `Schadenormen`. Hier wordt een lijst getoond van alle normen die aangemaakt zijn. Klik boven aan de lijst op `+ NIEUWE NORM`.
+Klik boven aan de lijst op `+ NIEUWE NORM`.
 Doormiddel van Frequentie - Acceleratie/snelheids paren wordt de norm gedefinieerd.
 Kies het type norm: `snelheid` of `acceleratie`. Voeg vervolgens een aantal datapunten toe die samen door middel van interpolatie een norm vormen.
 Kies een unieke naam voor de norm en klik op `OPSLAAN`. De Norm verschijnt nu in de lijst.
