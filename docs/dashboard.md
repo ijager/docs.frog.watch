@@ -60,8 +60,27 @@ Op dit moment worden er 4 meetmethodes ondersteund:
 3. **Hindermeting (SBR B).** Deze methode gaat volgens de SBR B richtlijn. Dat wil zeggen dat er elke 30 seconde een datapunt wordt uitgerekend waar een Vmax uit volgt. Dit is een dimensieloos  getal gerelateerd aan de trillingssnelheid (Een effectieve waarde gemiddeld over 30 seconde). Deze methode is dus te gebruiken met SBR B normen en ook zonder norm.
 4. **Kalibratie.** Kies deze meetmethode als uw meters gekalibreerd moeten worden. Dit zorgt automatisch voor de juiste meetinstellingen. Ook wordt in deze methode de trillingsdata niet verstuurd naar het Frogwatch Dashboard om de kalibratie sneller te laten verlopen.
 
+## Toetsing
 
+Kies in deze sectie een van de normen (of geen) die beschikbaar zijn voor de gekozen meetmethode. Voor SBR A en C normen kunnen tevens veiligheidsfactoren worden ingesteld. Dit zorgt er effectief voor dat de norm verschoven wordt.
 
+## Bewaking
+
+Als er een norm is ingesteld wordt de `Bewaking`-sectie zichtbaar.  In deze sectie kan ingesteld worden wie er een melding krijgt als het trillingsniveau een bepaald percentage van de norm bereikt. En hoe vaak dit (maximaal) moet gebeuren.
+
+### Alarmeringsgevoeligheid
+
+Het minimaal aantal overschrijdingen dat moet optreden binnen een minuut voordat er een alarm wordt uitgestuurd. Als er bijvoorbeeld `3` wordt ingesteld, dan wordt er alleen een overschrijdingsbericht gestuurd als er binnen 1 minuut 3x een bepaald trillingsniveau is gemeten. Na elke verstuurd bericht is er een back-off periode waarin geen meldingen worden gestuurd naar contactpersonen, ook al zijn er wél overschrijdingen. Overschrijdingen worden echter nog wel doorgegeven aan Frogwatch Dashboard.
+
+### Alarminterval
+
+De minimale tijd in minuten die tussen elk opvolgend bericht(sms of email) moet zitten. Deze instelling werkt als een rate-limit en zorgt er voor dat contactpersonen niet te vaak meldingen krijgen.
+
+### Contactpersonen
+
+In de contactpersonen tabel kan ingesteld worden wie er een bericht krijgt bij een bepaald trillingsniveau ten opzichte van de norm. De norm is hierbij 100%. Dus om meldingen te ontvangen als het trillingsniveau bijna een normoverschrijding veroorzaakt vul je bijvoorbeeld `95%` in voor een bepaald contactpersoon.
+
+Contactpersonen worden per project toegevoegd. Dit gebeurt in het `Toegang` menu binnen het project. Daar kan ook ingesteld worden of contactpersonen via sms of email gealarmeerd worden, en op welke dagen dit wel of niet mag gebeuren.
 # Statusoverzicht Meters
 
 # Trillingsdata inzien
