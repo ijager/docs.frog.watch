@@ -28,7 +28,7 @@ Wanneer je voor de eerste keer een Frogwatch Meter besteld wordt er een account 
 
 Je ontvangt een email met een link om je wachtwoord in te stellen.
 
-## Systeem aanzetten
+## Frogwatch Meter aanzetten
 
 1. Log in op Frogwatch Dashboard en klik in het hoofdmenu op Meters voor een overzicht van alle meters binnen uw organisatie.
 2. Open de deksel van de meter en sluit de batterij aan.
@@ -40,7 +40,7 @@ Je ontvangt een email met een link om je wachtwoord in te stellen.
 6. De status van het systeem staat nu op `geen config`. Dit betekent dat de meter nog niet is geconfigureerd met meetinstellingen.
 ![dashboard](/img/opstarten.png)
 
-## Systeem configureren
+## Frogwatch configureren
 
 
 1. Maak een nieuw project aan
