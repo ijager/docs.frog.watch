@@ -60,3 +60,12 @@ Je ontvangt een email met een link om je wachtwoord in te stellen.
 6. Klik op `CONTINU METEN` en kies onder Meetmethode voor `Schademeting Snelheid (SBR A/C)` en klik op `OPSLAAN`.
 
 ![dashboard](/img/configuratie.png)
+
+7. Klik 2 keer op de knop op de Meter zodat de meter meteen contact zoekt met de server. Zodra deze de nieuwe configuratie ontvangen heeft wordt de status `gestopt`.
+
+![dashboard](/img/statusstop.png)
+
+8. Start de meting door 2 keer op de knop te klikken. De eerste klik activeert het menu en laat de huidige status zien (rood = gestopt). De tweede keer drukken start de meting (groen knipperend). Je kunt de meter ook starten via de start knop in het status overzicht op Frogwatch Dashboard. Hierna zal de status groen `actief` aangeven.
+
+![dashboard](/img/statusactief.png)
+
