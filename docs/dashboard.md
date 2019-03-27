@@ -9,6 +9,45 @@ Vervolgens wordt er een Frogwatch Meter in het meetpunt geplaatst om de trilling
 
 ![ProjectStructuur](/img/ProjectStructuur.png).
 
+## Clusters
+
+Het aanmaken van clusters en meetpunten gebeurt in het `Clusters` menu binnen een project. Hier zijn meestal drie stappen nodig:
+
+1. Maak een cluster aan. Geef het cluster eventueel een logische naam.
+2. Voeg meetpunten toe aan het cluster. Aan de meetpunten kan opnieuw een naam gegeven worden.
+3. Selecteer een Meter die de metingen van het meetpunt gaat uitvoeren.
+4. Activeer de meter in het meetpunt door op het link-icoon te klikken. LET OP: als een meter op dat moment nog actief is in een ander project zal deze stoppen met meten en de meetinstellingen van het nieuwe cluster krijgen.
+
+![sensorlink](/img/link.png).
+
+Zodra er meetdata is ontvangen voor 1 van de meetpunten binnen een cluster wordt de meetconfiguratie gelocked en kan het cluster niet meer verwijderd worden.
+
+Een meter kan op elk moment verplaatst worden naar een ander meetpunt, maar kan op een later tijdstip ook weer teruggeplaatst worden in een vorig meetpunt door opnieuw op het link-icoon te klikken.
+
+# ProjectInfo
+
+Op de `Info` pagina binnen een project kunnen projectdetails en metadata worden ingevuld. Ook kunnen er documenten worden geüpload, bijvoorbeeld meetplannen. Deze pagina kan worden ingezien door opdrachtgevers of andere mensen met een account die toegang hebben gekregen tot dit project.
+
+Als het project afgelopen is kan het project hier gearchiveerd worden. Daardoor verdwijnt het project uit de lijst met actieve projecten. Het project kan op elk moment weer actief gemaakt worden mocht dat nodig zijn.
+
+# Meldingen
+
+De `Meldingen` pagina toont berichten afkomstig van de Meters die actief zijn in het project.
+
+Er zijn 4 soorten meldingen:
+
+1. **Info** Dit zijn service berichten die laten weten wanneer een systeem opgestart is, gestart en gestopt met metingen etc.
+2. **SBR** meldingen worden verstuurd als er een normoverschrijding is geweest. Deze melding laat het exacte tijdstip en trillingsniveau ten opzichte van de norm zien.
+3. **Error** Als er iets fout gaat tijdens het meten of met de normale operationele activiteiten van een Frogwatch Meter wordt dat gemeld doormiddel van *Error* meldingen. De meters proberen te detecteren wat er precies fout gaat of wat er kapot is en melden dat op deze manier. Denk aan een kapotte sensor of een corrupte SD kaart. Voor deze meldingen zijn meestal acties vereist van de gebruiker. En eventueel moet de meter een servicebeurt krijgen.
+4. **Warning** berichten zijn verwachte uitzonderingen die af en toe kunnen gebeuren maar waar de meter zelf van kan herstellen. Deze kunnen vaak beschouwd worden als diagnostische meldingen.
+
+# Rapportage
+
+Frogwatch Dashboard kan automatische rapportages genereren en versturen. Rapportages zijn per dag of per week. Wat er in het rapport staat is flexibel. Er kan per rapport gekozen worden welke meetpunten meegenomen worden voor die rapportage en welke contactpersonen de rapportage moeten ontvangen. Notificaties voor nieuwe beschikbare rapporten wordt 's ochtends rond 8 uur verstuurd per email.
+
+Een rapport kan voorzien worden van beschrijvingen en foto's en afbeeldingen.
+
+Naast automatische rapportage kun je ook een rapport handmatig genereren voor willekeurige tijdsbereiken. Bijvoorbeeld over het laatste uur, of over een hele maand. Handmatige rapportages worden niet automatisch verstuurd maar deze zijn wel te downloaden zodat je ze eventueel zelf kunt versturen.
 
 # Trillingsnormen instellen
 
