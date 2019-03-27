@@ -1,17 +1,12 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+![Logo](img/Logo_Frogwatch_RGB.png)
 
-## Commands
+# Wat is Frogwatch?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Frogwatch is een compleet platform voor trillingsmetingen volgens de SBR A, SBR B en SBR C richtlijnen.
+Voor algemene informatie over Frogwatch zie [www.frog.watch](https://www.frog.watch). Deze website dient als de technische handleiding voor gebruikers van het Frogwatch platform voor trillingsmetingen.
 
-## Project layout
+Frogwatch bestaat uit [Frogwatch Meters](/hardware) die in verbinding staan met het [Frogwatch Dashboard](/dashboard).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Ga naar [Getting Started](/gettingstarted) om snel aan de slag te gaan met Frogwatch.
+

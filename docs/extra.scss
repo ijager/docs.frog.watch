@@ -9,6 +9,20 @@ $accent-color: #aebd15;
 $accent-color-dark: #737D0E;
 $accent-color-darker: #393D07; // for active state
 
+$primary-text-color-dark: rgba($primary-color-dark,.87);
+$secondary-text-color-dark: rgba($primary-color-dark,.54);
+$tertiary-text-color-dark: rgba($primary-color-dark,.38);
+$primary-text-color-light: rgba(white,1.0);
+$secondary-text-color-light: rgba(white,.70);
+$tertiary-text-color-light: rgba(white,.50);
+
+body {
+  color: $primary-text-color-dark;
+}
+
+.wy-nav-content {
+  max-width: 900px;
+}
 
 div.wy-side-nav-search {
     background-color: $accent-color;
@@ -17,8 +31,16 @@ div.wy-side-nav-search {
 nav.wy-nav-side {
   background-color: $primary-color;
 }
+
+nav.wy-nav-top {
+  background-color: $accent-color;
+}
+
 h1 {
   color: $accent-color;
+}
+h2 {
+  color: $primary-color;
 }
 
 .wy-breadcrumbs, .rst-content {

@@ -5,9 +5,15 @@ site_url: https://frog.watch/handleiding
 
 nav:
     - Home: index.md
+    - Getting Started: gettingstarted.md
+    - Hardware: hardware.md
+    - Dashboard: dashboard.md
+    - FAQ: faq.md
     - About: about.md
 
 theme:
   name: readthedocs
   custom_dir: custom_theme/
 extra_css: [extra.css]
+
+docs_dir: docs
