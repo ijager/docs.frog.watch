@@ -28,4 +28,4 @@ npm install -g sass
 
 Run `make css` to build css from the scss files.
 
-Finally run `mkdic serve` to launch the website on `http://127.0.0.1:8000/`.
+Finally run `mkdocs serve` to launch the website on `http://127.0.0.1:8000/`.
