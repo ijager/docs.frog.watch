@@ -32,7 +32,7 @@ Dit is de Frogwatch meter. Binnen in de meter bevind zich de verwisselbare batte
 Frogwatch Battery Pack: oplaadbare li-ion batterij
 </div>
 <div style="flex: 0 1 250px">
-<img src="../img/voedingsadapter2.jpg" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedings Adapter"/>
+<img src="../img/voedingsadapter2.png" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedings Adapter"/>
 Frogwatch 12V voedingsadapter
 </div>
 </div>
