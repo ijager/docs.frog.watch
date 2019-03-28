@@ -128,4 +128,6 @@ Er verschijnt een popup met 7 invoer velden. De waardes A1, A2 en A3 voor zowel 
 
 # Statusoverzicht Meters
 
+ ![SBR B Norm](img/statushelp.png)
+
 # Trillingsdata inzien
