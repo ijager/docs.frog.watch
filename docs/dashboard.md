@@ -128,7 +128,19 @@ Er verschijnt een popup met 7 invoer velden. De waardes A1, A2 en A3 voor zowel 
 
 # Statusoverzicht Meters
 
- ![Status Overzicht](img/statushelp.png)
+In het hoofdmenu item `Meters` zie je een overzicht van alle meters binnen de organisatie. Een vergelijkbaar overzicht is ook beschikbaar voor de status binnen één project: ga naar `Projecten`, en kies een project, of klik op `status` in het linker menu.
+
+In het overzicht zie je een kolom `Status`. Deze kolom geeft een samenvatting van wat de sensor precies aan het doen is. In de tabel hieronder wordt toegelicht wat elke status betekent.
+ ![Betekenis status](img/statushelp.png)
+
+ Verder vind je in de statustabel nog een aantal kolommen die informatie geven over de meter:
+
+ * `Meetperiode`: sinds wanneer de meting actief is en wanneer deze het laatst gestopt is.
+ * `Signaal`: een indicatie van het netwerkbereik (100% is perfect, 0% is zeer slecht)
+ * `Batterij`: hoe vol de batterij is en of de voeding aangesloten is.
+ * `Temp`: de temperatuur binnen in de meter. Hieraan kun je aardig inschatten of de meter binnen of buiten staat.
+ * `Laatste Update`: het tijdstip dat de meter voor het laatst contact heeft gemaakt met het Dashboard. Informatie van na dit tijdstip is nog niet beschikbaar.
+ * `Commando`: hiermee kun je een `START` of `STOP` klaarzetten voor de meter. Zodra de meter online komt zal de meting gestart of gestopt worden.
 
 # Trillingsdata inzien
 
