@@ -1,4 +1,4 @@
-# Ik heb een meter geplaatst, waarom komt deze niet online in het dashboard?
+# Ik heb een meter geplaatst, waarom komt deze niet online in het Dashboard?
 
 Tijdens het opstarten zoekt de meter verbinding met het Frogwatch Dashboard om zijn meetinstellingen op te halen en de tijd te synchroniseren. Normaal gesproken duurt dit niet langer dan 5 minuten. Dit kan in enkele gevallen aanzienlijk langer duren:
 
@@ -22,7 +22,7 @@ Als de meter op meerdere locaties niet online komt, ook na langere tijd, dan is 
 
 # Ik heb een meter op afstand gestart, wanneer begint de meting?
 
-De Frogwatch meters maken af en toe verbinding met het dashboard om nieuwe instellingen op te halen. Dit gebeurt standaard elke `15 minuten`. Daarnaast komt de meter meteen online als er iets belangrijks gebeurt, bijvoorbeeld bij foutmeldingen, overschrijdingen of als er een meting start/stopt. Het kan dus maximaal 15 minuten duren. Dit is instelbaar onder `Meters`, selecteer een meter, `instellingen`, `synchronisatie interval`. Door niet continue online te komen word stroom bespaard om de accuduur te optimaliseren.
+De Frogwatch meters maken af en toe verbinding met het Dashboard om nieuwe instellingen op te halen. Dit gebeurt standaard elke `15 minuten`. Daarnaast komt de meter meteen online als er iets belangrijks gebeurt, bijvoorbeeld bij foutmeldingen, overschrijdingen of als er een meting start/stopt. Het kan dus maximaal 15 minuten duren. Dit is instelbaar onder `Meters`, selecteer een meter, `instellingen`, `synchronisatie interval`. Door niet continue online te komen word stroom bespaard om de accuduur te optimaliseren.
 
 
 

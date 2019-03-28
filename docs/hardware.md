@@ -59,7 +59,7 @@ Dit geeft de eerste ca 5 seconden van het opstarten aan. Bij een firmware update
 * **Beide lampjes branden.**
 De meter is aan het opstarten. Dit duurt maximaal 10 seconden.
 * **Beide lampjes knipperen om de beurt.**
-De meter is opgestart, maar is nog bezig met gegevens uitwisselen met het frogwatch dashboard. De meter haalt de nieuwste instellingen op vanaf de server en stuurt eventuele meetdata van een vorige meting op voordat de meter gestart kan worden.
+De meter is opgestart, maar is nog bezig met gegevens uitwisselen met het frogwatch Dashboard. De meter haalt de nieuwste instellingen op vanaf de server en stuurt eventuele meetdata van een vorige meting op voordat de meter gestart kan worden.
 
 Na opstarten:
 
@@ -70,16 +70,16 @@ Dit is normaal. Om stroom te besparen staan ze (behalve tijdens het opstarten) s
 De meting is niet actief, maar de meter is wel klaar voor gebruik.
 
 * **Na druk op de knop: groene lampje brandt.**
-De meting is standby: de meting wordt automatisch gestart op het tijdstip dat via het dashboard is ingesteld.
+De meting is standby: de meting wordt automatisch gestart op het tijdstip dat via het Dashboard is ingesteld.
 
 * **Na druk op de knop: groene lampje knippert.**
 De meter is op dit moment aan het meten.
 
 * **Na druk op de knop: rode lampje knippert.**
-De meter moet nog worden ingesteld via het dashboard. Er kan geen meting gestart worden.
+De meter moet nog worden ingesteld via het Dashboard. Er kan geen meting gestart worden.
 
 * **Na druk op de knop: rode lampje knippert snel.**
-Er is een fout opgetreden, de meter is mogelijk defect. Kijk op het dashboard of er meer informatie beschikbaar is.
+Er is een fout opgetreden, de meter is mogelijk defect. Kijk op het Dashboard of er meer informatie beschikbaar is.
 
 ### Status / Start / Stop knop
 Als de meter is opgestart (lampjes zijn uit), kun je de meter bedienen via de drukknop. Druk eenmaal om de status uit te lezen (de knop even ingedrukt houden tot de lampjes aan gaan).
