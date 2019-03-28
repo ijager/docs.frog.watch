@@ -51,7 +51,9 @@ Binnen het deksel zie je een metalen kastje met een USB-connector, twee status L
 ## Montage
 Als je het deksel geopend hebt, zie je dat op elk van de vier hoeken van de meter een uitsparing is met een gat dat helemaal doorloopt, door de aluminium achterkant heen. Deze vier gaten zijn bedoeld om de meter aan de muur te bevestigen.
 
+![Frogwatch bevestiging](img/FrogwatchMeter_front_bevestiging.png)
 
+Gebruik minimaal 2 van de 4 gaten voor een goede bevestiging.
 
 ## Aansluiten batterij
 De connector van de batterij past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
