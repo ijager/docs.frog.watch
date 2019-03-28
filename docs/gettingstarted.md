@@ -20,23 +20,9 @@ Nog geen Frogwatch aangeschaft, maar wel benieuwd hoe dit eruit ziet? [Probeer d
 
 
 ## De Frogwatch apparatuur
-![Frogwatch Meter](img/frogwatch-meter-small.png)
+![Frogwatch Meter met toebehoren](img/frogwatch-apparatuur.png)
 
-Dit is de Frogwatch meter. Binnen in de meter bevind zich de verwisselbare battery pack zoals hieronder afgebeeld. Daarnaast leveren we standaard een 12V voedingsadapter mee. De meegeleverde batterij is in de meeste gevallen voldoende opgeladen om meteen aan de slag te kunnen.
-
-
-<div style="display: flex; flex-flow: row wrap; justify-content: space-around">
-
-<div style="flex: 0 1 250px">
-<img src="../img/batterypack1-small.png" alt="Frogwatch Battery Pack" title="Frogwatch Battery Pack"/>
-Frogwatch Battery Pack: oplaadbare li-ion batterij
-</div>
-<div style="flex: 0 1 250px">
-<img src="../img/voedingsadapter2.png" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedings Adapter"/>
-Frogwatch 12V voedingsadapter
-</div>
-</div>
-<br>
+Dit is de Frogwatch meter inclusief meegeleverde toebehoren. Binnen in de meter bevind zich de verwisselbare battery pack. Deze is normaal gesproken voldoende opgeladen om meteen aan de slag te kunnen. Daarnaast leveren we standaard een 12V voedingsadapter mee.
 
 Heb je de bovenstaande frogwatch apparatuur ontvangen? Dan is het tijd om aan de slag te gaan!
 
