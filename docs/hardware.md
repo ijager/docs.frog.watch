@@ -1,11 +1,11 @@
 # Frogwatch Meter
 
 <div style="display: flex; flex-flow: row wrap; justify-content: space-around">
-<div>
-<img src="img/frogwatch-meter.png" alt="Frogwatch Meter" width="200"/>
+<div style="width:200px">
+<img src="../img/frogwatch-meter.png" alt="Frogwatch Meter" width="200"/>
 </div>
 <div>
-<img src="img/frogwatch-back.png" alt="Frogwatch Meter" width="200"/>
+<img src="../img/frogwatch-back.png" alt="Frogwatch Meter" width="200"/>
 </div>
 </div>
 
@@ -21,7 +21,7 @@ Een uitgebreid overzicht van de vind je op de [Frogwatch Facts pagina](https://w
 
 ## Aansluitingen extern
 
-De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de aandacht trekt van vandalen of nieuwschierige passanten. Dit is ook de reden dat er aan de buitenkant geen display, knoppen, leds etc zichtbaar zijn. Er zijn slechts twee (optionele) aansluitingen aan de onderkant. De [interne aansluitingen](#aansluitingen-intern) zijn alleen toegankelijk als je de meter opent.
+De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de aandacht trekt van vandalen of nieuwsgierige passanten. Dit is ook de reden dat er aan de buitenkant geen display, knoppen, leds etc zichtbaar zijn. Er zijn slechts twee (optionele) aansluitingen aan de onderkant. De [interne aansluitingen](#aansluitingen-intern) zijn alleen toegankelijk als je de meter opent.
 
 ### DC jack: 12V voeding
 Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](#battery-pack) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
@@ -38,7 +38,7 @@ Het kan voorkomen dat er geen of onvoldoende netwerkbereik is op een meetlocatie
 Als de meter langere tijd heeft gemeten zonder netwerkverbinding kan dit wat langer duren, omdat er dan meer data is om uit te wisselen.
 
 ## Aansluitingen intern
-Binnen het deksel zie je een metalen kastje met een USB-connector, twee status LEDs en de start/stop knop. Daarnaast uiteraard de mogelijkheid om de batterij aan te sluiten.
+Binnen het deksel zie je een metalen kastje met een USB-connector, twee status LEDs en de start/stop knop. Daarnaast uiteraard de mogelijkheid om de batterij aan te sluiten. Ook zie je links de antenne zitten. Deze is los te schroeven zodat je de [antenne kabel kunt verlengen](#sma-connector-externe-antenne).
 
 ### Aansluiten batterij
 De connector van de batterij past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
@@ -89,7 +89,7 @@ Druk nogmaals om de meter te starten (indien gestopt) of te stoppen (indien stan
 
 # Battery Pack
 
-<img src="img/batterypack1.png" alt="Frogwatch Battery Pack" width="400"/>
+![Frogwatch Battery Pack](img/batterypack1-small.png)
 
 ## Specificaties
 
@@ -133,7 +133,7 @@ De battery packs zijn beveiligd tegen kortsluiting, overbelasting, overcharge en
 
 # 12V voedingsadapter
 
-<img src="img/voedingsadapter2.jpg" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedingsadapter" width="400"/>
+![Frogwatch voedingsadapter](img/voedingsadapter2.jpg)
 
 ## Specificaties
 
@@ -152,7 +152,7 @@ De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan
 
 # Li-ion oplader
 
-<img src="img/li_ion_oplader.jpg" alt="Frogwatch Li-ion oplader" title="Frogwatch Li-ion oplader" width="400"/>
+![Frogwatch li-ion oplader](img/li_ion_oplader.jpg)
 
 ## Specificaties
 

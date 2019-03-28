@@ -2,9 +2,7 @@
 # De Frogwatch Meter
 
 
-<div style="max-width: 250px">
-<img src="img/frogwatch-meter.png" alt="Frogwatch Meter"/>
-</div>
+![Frogwatch Meter](img/frogwatch-meter-small.png)
 
 De Frogwatch Meter komt standard met de volgende accessoires:
 
@@ -12,10 +10,10 @@ De Frogwatch Meter komt standard met de volgende accessoires:
 <div style="display: flex; flex-flow: row wrap; justify-content: space-around">
 
 <div style="flex: 0 1 250px">
-<img src="img/batterypack1.png" alt="Frogwatch Battery Pack" title="Frogwatch Battery Pack"/>
+<img src="../img/batterypack1-small.png" alt="Frogwatch Battery Pack" title="Frogwatch Battery Pack"/>
 </div>
 <div style="flex: 0 1 250px">
-<img src="img/voedingsadapter2.jpg" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedings Adapter"/>
+<img src="../img/voedingsadapter2.jpg" alt="Frogwatch Voedings Adapter" title="Frogwatch Voedings Adapter"/>
 </div>
 </div>
 
