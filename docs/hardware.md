@@ -42,9 +42,9 @@ Als de meter langere tijd heeft gemeten zonder netwerkverbinding kan dit wat lan
 ## Deksel
 Het deksel dient om de meter te beschermen tegen de elementen en geeft de Frogwatch zijn onopvallende look. Het deksel is te openen door de vier boutjes los te draaien. De boutjes blijven aan het deksel vastzitten zodat je ze niet kwijt raakt.
 
-Binnen het deksel zie je een metalen kastje met een USB-connector, twee status LEDs en de start/stop knop. Daarnaast uiteraard de mogelijkheid om de batterij aan te sluiten. Ook zie je links de antenne zitten. Deze is los te schroeven zodat je de [antenne kabel kunt verlengen](#sma-connector-externe-antenne).
-
 **Let op: het binnenste metalen kastje bevat gevoelige meetinstrumenten en is niet bedoeld om te openen.** Als deze toch geopend wordt, zal een servicebeurt nodig zijn.
+
+Binnen het deksel zie je een metalen kastje met een USB-connector, twee status LEDs en de start/stop knop. Daarnaast uiteraard de mogelijkheid om de batterij aan te sluiten. Ook zie je links de antenne zitten. Deze is los te schroeven zodat je de [antenne kabel kunt verlengen](#sma-connector-externe-antenne).
 
 
 
@@ -149,7 +149,7 @@ De battery packs zijn beveiligd tegen kortsluiting, overbelasting, overcharge en
 
 # 12V voedingsadapter
 
-![Frogwatch voedingsadapter](img/voedingsadapter2.jpg)
+![Frogwatch voedingsadapter](img/voedingsadapter2.png)
 
 ## Specificaties
 
