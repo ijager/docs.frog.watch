@@ -1,3 +1,9 @@
+# Veelgestelde vragen
+
+Hier vind je antwoorden op enkele vaker gestelde vragen. Natuurlijk kun je vragen ook altijd [direct aan de makers stellen](https://www.frog.watch/contact/).
+
+
+
 # Ik heb een meter geplaatst, waarom komt deze niet online in het Dashboard?
 
 Tijdens het opstarten zoekt de meter verbinding met het Frogwatch Dashboard om zijn meetinstellingen op te halen en de tijd te synchroniseren. Normaal gesproken duurt dit niet langer dan 5 minuten. Dit kan in enkele gevallen aanzienlijk langer duren:
