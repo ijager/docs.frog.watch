@@ -65,7 +65,7 @@ Zolang de batterij aangesloten is, zal de Frogwatch periodiek online komen, ook 
 
 ## Status LEDs
 
-De twee status LEDs zijn bedoeld om tijdens het plaatsen of een snelle inspectie te zien wat de meter aan het doen is. Uitgebreidere informatie is beschikbaar op het [Frogwatch Dashboard](../dashboard/).
+De twee status LEDs zijn bedoeld om tijdens het plaatsen of een snelle inspectie te zien wat de meter aan het doen is. Uitgebreidere informatie is beschikbaar op het [Statusoverzicht op het Frogwatch Dashboard](../dashboard/#statusoverzicht-meters).
 
 Tijdens opstarten:
 
@@ -100,6 +100,10 @@ Er is een fout opgetreden, de meter is mogelijk defect. Kijk op het Dashboard of
 Als de meter is opgestart (lampjes zijn uit), kun je de meter bedienen via de drukknop. Druk eenmaal om de status uit te lezen (de knop even ingedrukt houden tot de lampjes aan gaan).
 
 Druk nogmaals om de meter te starten (indien gestopt) of te stoppen (indien standby of actief).
+
+**Tip**: Als je op de knop drukt terwijl de meter een knipperend rood lampje laat zien (meter niet ingesteld), zal de meter meteen contact maken met het Frogwatch Dashboard om nieuwe instellingen op te halen. Hiermee kun je tijd besparen als je de meter net hebt ingesteld op het Dashboard. Zo hoef je niet te wachten tot de Frogwatch meter zelf contact maakt.
+
+Dit werkt overigens ook als je de meter met de knop start of stopt: de meter maakt dan meteen verbinding om dit door te geven aan het Frogwatch Dashboard.
 
 ## USB verbinding
 
