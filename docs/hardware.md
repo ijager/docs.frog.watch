@@ -19,9 +19,9 @@
 
 Een uitgebreid overzicht van de vind je op de [Frogwatch Facts pagina](https://www.frog.watch/facts/) .
 
-## Aansluitingen extern
+## Externe aansluitingen
 
-De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de aandacht trekt van vandalen of nieuwsgierige passanten. Dit is ook de reden dat er aan de buitenkant geen display, knoppen, leds etc zichtbaar zijn. Er zijn slechts twee (optionele) aansluitingen aan de onderkant. De [interne aansluitingen](#aansluitingen-intern) zijn alleen toegankelijk als je de meter opent.
+De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de aandacht trekt van vandalen of nieuwsgierige passanten. Dit is ook de reden dat er aan de buitenkant geen display, knoppen, leds etc zichtbaar zijn. Er zijn slechts twee (optionele) aansluitingen aan de onderkant. De rest is alleen toegankelijk als je het [deksel opent](#deksel).
 
 ### DC jack: 12V voeding
 Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](#battery-pack) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
@@ -37,20 +37,33 @@ Het kan voorkomen dat er geen of onvoldoende netwerkbereik is op een meetlocatie
 
 Als de meter langere tijd heeft gemeten zonder netwerkverbinding kan dit wat langer duren, omdat er dan meer data is om uit te wisselen.
 
-## Aansluitingen intern
+
+
+## Deksel
+Het deksel dient om de meter te beschermen tegen de elementen en geeft de Frogwatch zijn onopvallende look. Het deksel is te openen door de vier boutjes los te draaien. De boutjes blijven aan het deksel vastzitten zodat je ze niet kwijt raakt.
+
 Binnen het deksel zie je een metalen kastje met een USB-connector, twee status LEDs en de start/stop knop. Daarnaast uiteraard de mogelijkheid om de batterij aan te sluiten. Ook zie je links de antenne zitten. Deze is los te schroeven zodat je de [antenne kabel kunt verlengen](#sma-connector-externe-antenne).
 
-### Aansluiten batterij
+**Let op: het binnenste metalen kastje bevat gevoelige meetinstrumenten en is niet bedoeld om te openen.** Als deze toch geopend wordt, zal een servicebeurt nodig zijn.
+
+
+
+## Montage
+Als je het deksel geopend hebt, zie je dat op elk van de vier hoeken van de meter een uitsparing is met een gat dat helemaal doorloopt, door de aluminium achterkant heen. Deze vier gaten zijn bedoeld om de meter aan de muur te bevestigen.
+
+
+
+## Aansluiten batterij
 De connector van de batterij past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
 
 Pak altijd de connector zelf vast en trek niet aan de kabels. Er is niet veel kracht nodig om de connector los- en vast te maken: om de batterij los te koppelen druk je op de klikverbinding zodat deze gemakkelijk los komt.
 
-#### Standby
+### Standby
 Zolang de batterij aangesloten is, zal de Frogwatch periodiek online komen, ook als er geen meting actief is. Dit maakt het mogelijk om metingen op afstand te starten. In deze standby stand gaat het systeem veel langer mee dan tijdens het meten, maar als je de meter volledig uit wilt zetten kun je het beste de batterij loskoppelen.
 
-### Status LEDs
+## Status LEDs
 
-De twee status LEDs zijn bedoeld om tijdens het plaatsen of een snelle inspectie te zien wat de meter aan het doen is. Uitgebreidere informatie is beschikbaar op het [Frogwatch Dashboard](../dashboard/) .
+De twee status LEDs zijn bedoeld om tijdens het plaatsen of een snelle inspectie te zien wat de meter aan het doen is. Uitgebreidere informatie is beschikbaar op het [Frogwatch Dashboard](../dashboard/).
 
 Tijdens opstarten:
 
@@ -81,12 +94,12 @@ De meter moet nog worden ingesteld via het Dashboard. Er kan geen meting gestart
 * **Na druk op de knop: rode lampje knippert snel.**
 Er is een fout opgetreden, de meter is mogelijk defect. Kijk op het Dashboard of er meer informatie beschikbaar is.
 
-### Status / Start / Stop knop
+## Status / Start / Stop knop
 Als de meter is opgestart (lampjes zijn uit), kun je de meter bedienen via de drukknop. Druk eenmaal om de status uit te lezen (de knop even ingedrukt houden tot de lampjes aan gaan).
 
 Druk nogmaals om de meter te starten (indien gestopt) of te stoppen (indien standby of actief).
 
-### USB verbinding
+## USB verbinding
 
 De Frogwatch meter kan via usb verbonden worden met een computer. Met de Frogwatch software kun je live meekijken op locatie. Dit is vooral handig als moet worden vastgesteld wat de oorzaak van bepaalde trillingen is. Zo kun je observeren dat er zwaar verkeer langsrijdt en meteen de piekwaarde aflezen en het tijdstip noteren.
 
@@ -159,7 +172,7 @@ De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan
 
 ## Specificaties
 
-Deze oplader is speciaal geselecteerd om Frogwatch battery packs op te laden. De laadstroom bedraagt 3A, het duurt ongeveer 5-8 uur om een lege batterij volledig op te laden.
+Deze oplader is speciaal geselecteerd om Frogwatch battery packs op te laden. De laadstroom bedraagt 3A, het duurt ongeveer 5-8 uur om een lege batterij volledig op te laden. De oplader is [verkrijgbaar in de webshop](https://www.frog.watch/product/frogwatch-li-ion-oplader/).
 
 ## Aansluiten
 
