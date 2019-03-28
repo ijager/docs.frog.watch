@@ -1,7 +1,6 @@
 site_name: Frogwatch Handleiding
 site_description: Handleiding voor het Frogwatch Trillingsmeter platform
 site_author: Jitter
-site_url: https://frog.watch/handleiding
 
 nav:
     - Home: index.md
