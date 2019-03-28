@@ -128,6 +128,26 @@ Er verschijnt een popup met 7 invoer velden. De waardes A1, A2 en A3 voor zowel 
 
 # Statusoverzicht Meters
 
- ![SBR B Norm](img/statushelp.png)
+ ![Status Overzicht](img/statushelp.png)
 
 # Trillingsdata inzien
+
+Via het menu `Trillingen` binnen een project kan de gemeten trillingsdata interactief bekeken worden.
+
+De eerste stap is om de gewenste meetpunten te selecteren in de linker kolom.
+
+ ![data selectie](img/data-selectie.png)
+
+Vervolgens selecteer je aan de rechter kant in de filter sectie het gewenste tijdbereik en resolutie.
+
+De resolutie bepaalt hoeveel datapunten er geladen worden. Hoe meer data punten hoe meer detail, maar bij te veel datapunten kan het lang duren voordat de plot geladen is. Om overbelasting van de browser te voorkomen wordt de data automatisch gedownsampled. Dit kan uitgezet of aangepast worden door op `Downsampling` te klikken.
+
+Klik op `LAAD` om de data te laden en te plotten.
+
+ ![data selectie](img/plot.png)
+
+ De juiste plots worden automatisch getoond voor de data die beschikbaar is. Dit kan verschillen per cluster en is afhankelijk van de meetconfiguratie.
+
+ Verschillende meetpunten die tegelijk zijn geselecteerd worden over elkaar heeb geplot om ze eenvoudig te kunnen vergelijken.
+
+ De plots zijn interactief. Als je in 1 plot zoomt, dan zoomen de ander plots mee als dat mogelijk is. Na het zoomen kan het soms handig zijn om opnieuw op `LADEN` te klikken (of op `Enter` te drukken) zodat de data in een hogere resolutie geladen wordt. Dit zorgt ervoor dat je meer details kunt zien.
