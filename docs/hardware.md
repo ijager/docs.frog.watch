@@ -155,7 +155,7 @@ De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan
 
 # Li-ion oplader
 
-![Frogwatch li-ion oplader](img/li_ion_oplader.jpg)
+![Frogwatch li-ion oplader](img/li_ion_oplader.png)
 
 ## Specificaties
 
