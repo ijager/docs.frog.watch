@@ -8,7 +8,7 @@ Meetpunten bestaan binnen een cluster, vaak representeren die een fysieke locati
 
 Vervolgens wordt er een Frogwatch Meter in het meetpunt geplaatst om de trillingsdata te verzamelen. Dit is heel flexibel, want de data hoort bij het meetpunt, niet bij de meter. Dus je kunt de meter in een meetpunt zonder problemen vervangen.
 
-![ProjectStructuur](../img/ProjectStructuur.png).
+![ProjectStructuur](img/ProjectStructuur.png).
 
 ## Clusters
 
@@ -19,7 +19,7 @@ Het aanmaken van clusters en meetpunten gebeurt in het `Clusters` menu binnen ee
 3. Selecteer een Meter die de metingen van het meetpunt gaat uitvoeren.
 4. Activeer de meter in het meetpunt door op het link-icoon te klikken. LET OP: als een meter op dat moment nog actief is in een ander project zal deze stoppen met meten en de meetinstellingen van het nieuwe cluster krijgen.
 
-![sensorlink](../img/link.png).
+![sensorlink](img/link.png).
 
 Zodra er meetdata is ontvangen voor 1 van de meetpunten binnen een cluster wordt de meetconfiguratie gelocked en kan het cluster niet meer verwijderd worden.
 
@@ -112,7 +112,7 @@ Doormiddel van Frequentie - Acceleratie/snelheids paren wordt de norm gedefiniee
 Kies het type norm: `snelheid` of `acceleratie`. Voeg vervolgens een aantal datapunten toe die samen door middel van interpolatie een norm vormen.
 Kies een unieke naam voor de norm en klik op `OPSLAAN`. De Norm verschijnt nu in de lijst.
 
-![SBR A Norm](../img/norm.png).
+![SBR A Norm](img/norm.png).
 
 
 ## Hindernormen (SBR B)
@@ -123,7 +123,7 @@ Een Hindernorm bestaat, zoals de SBR B richtlijn omschrijft uit 6 waardes. Drie 
 Ga naar het hoofdmenu item `Normen` en klik op `Hindernormen`. Hier wordt een lijst getoond van alle normen die aangemaakt zijn. Klik boven aan de lijst op `+ NIEUWE NORM`.
 Er verschijnt een popup met 7 invoer velden. De waardes A1, A2 en A3 voor zowel de dag/avond en de nacht periode, en 1 veld voor de unieke naam van de norm.
 
- ![SBR B Norm](../img/norm_b.png)
+ ![SBR B Norm](img/norm_b.png)
 
 
 # Statusoverzicht Meters
