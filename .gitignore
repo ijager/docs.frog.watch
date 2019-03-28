@@ -1,5 +1,5 @@
 *.css.map
 docs/extra.css
 site/
- .DS_Store
+.DS_Store
 
