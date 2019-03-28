@@ -98,7 +98,7 @@ Druk nogmaals om de meter te starten (indien gestopt) of te stoppen (indien stan
 * Capaciteit: 17250 mAh
 * Maximum laadstroom: 3A
 
-De battery pack word standaard meegeleverd met de Frogwatch meter en is is speciaal ontworpen voor een zo lang mogelijke batterijduur. Gebruik alleen originele Frogwatch batterypacks. Zo weet je zeker dat ze compatible, veilig en van goede kwaliteit zijn. Extra battery packs zijn [verkrijgbaar via de webshop](https://www.frog.watch/product/frogwatch-battery-pack/).
+De battery pack wordt standaard meegeleverd met de Frogwatch meter en is is speciaal ontworpen voor een zo lang mogelijke batterijduur. Gebruik alleen originele Frogwatch batterypacks. Zo weet je zeker dat ze compatible, veilig en van goede kwaliteit zijn. Extra battery packs zijn [verkrijgbaar via de webshop](https://www.frog.watch/product/frogwatch-battery-pack/).
 
 ## Aansluiten
 
@@ -141,7 +141,7 @@ Deze voedingsadapter is gespecificeerd op 12V 3A. Hiermee heeft de adapter voldo
 
 ## Gebruik
 
-De 12V voedingsadapter word standaard meegeleverd met de Frogwatch meter en is bedoeld om deze van stroom te voorzien (als dit beschikbaar is op de meetlocatie).
+De 12V voedingsadapter wordt standaard meegeleverd met de Frogwatch meter en is bedoeld om deze van stroom te voorzien (als dit beschikbaar is op de meetlocatie).
 Daarnaast kan de Frogwatch meter automatisch de batterij opladen wanneer de voedingsadapter verbonden is.
 Reserve adapters zijn [los verkrijgbaar in de webshop](https://www.frog.watch/product/frogwatch-12v-voedingsadapter/).
 
