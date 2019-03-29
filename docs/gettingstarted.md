@@ -24,7 +24,7 @@ Nog geen Frogwatch aangeschaft, maar wel benieuwd hoe dit eruit ziet? [Probeer d
 
 Dit is de Frogwatch meter inclusief meegeleverde toebehoren. Binnen in de meter bevind zich de verwisselbare battery pack. Deze is normaal gesproken voldoende opgeladen om meteen aan de slag te kunnen. Daarnaast leveren we standaard een 12V voedingsadapter mee.
 
-Heb je de bovenstaande frogwatch apparatuur ontvangen? Dan is het tijd om aan de slag te gaan!
+Heb je de bovenstaande Frogwatch apparatuur ontvangen? Dan is het tijd om aan de slag te gaan!
 
 
 ## Frogwatch Meter aanzetten

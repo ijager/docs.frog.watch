@@ -28,7 +28,7 @@ Als de meter op meerdere locaties niet online komt, ook na langere tijd, dan is 
 
 # Ik heb een meter op afstand gestart, wanneer begint de meting?
 
-De Frogwatch meters maken af en toe verbinding met het Dashboard om nieuwe instellingen op te halen. Dit gebeurt standaard elke `15 minuten`. Daarnaast komt de meter meteen online als er iets belangrijks gebeurt, bijvoorbeeld bij foutmeldingen, overschrijdingen of als er een meting start/stopt. Het kan dus maximaal 15 minuten duren. Dit is instelbaar onder `Meters`, selecteer een meter, `instellingen`, `synchronisatie interval`. Door niet continue online te komen word stroom bespaard om de accuduur te optimaliseren.
+De Frogwatch meters maken af en toe verbinding met het Dashboard om nieuwe instellingen op te halen. Dit gebeurt standaard elke `15 minuten`. Daarnaast komt de meter meteen online als er iets belangrijks gebeurt, bijvoorbeeld bij foutmeldingen, overschrijdingen of als er een meting start/stopt. Het kan dus maximaal 15 minuten duren. Dit is instelbaar onder `Meters`, selecteer een meter, `instellingen`, `synchronisatie interval`. Door niet continue online te komen wordt stroom bespaard om de accuduur te optimaliseren.
 
 
 
@@ -50,7 +50,7 @@ Ga naar `Meters`, `Firmware`. Hier zie je een lijst met de meters en welke firmw
 
 # Wordt de meetdata veilig bewaard? Wie kan mijn data inzien?
 
-Alle Frogwatch meetdata wordt veilig op een Nederlandse server opgeslagen en automatisch gebackupt. Zo zorgen we dat meetgegevens nooit verloren gaan. 
+Alle Frogwatch meetdata wordt veilig op een Nederlandse server opgeslagen en automatisch gebackupt. Zo zorgen we dat meetgegevens nooit verloren gaan.
 
 Frogwatch is een product van Jitter. De systeembeheerders van Jitter kunnen uw data inzien als dit nodig is. Zij zullen deze gegevens niet delen met derden. Daarnaast kunt u zelf beheren welke personen toegang hebben tot het Frogwatch Dashboard. Ga hiervoor in het hoofdmenu naar `Organisatie`, `Gebruikers`.
 

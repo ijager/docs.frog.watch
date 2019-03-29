@@ -74,7 +74,7 @@ Dit geeft de eerste ca 5 seconden van het opstarten aan. Bij een firmware update
 * **Beide lampjes branden.**
 De meter is aan het opstarten. Dit duurt maximaal 10 seconden.
 * **Beide lampjes knipperen om de beurt.**
-De meter is opgestart, maar is nog bezig met gegevens uitwisselen met het frogwatch Dashboard. De meter haalt de nieuwste instellingen op vanaf de server en stuurt eventuele meetdata van een vorige meting op voordat de meter gestart kan worden.
+De meter is opgestart, maar is nog bezig met gegevens uitwisselen met het Frogwatch Dashboard. De meter haalt de nieuwste instellingen op vanaf de server en stuurt eventuele meetdata van een vorige meting op voordat de meter gestart kan worden.
 
 Na opstarten:
 
