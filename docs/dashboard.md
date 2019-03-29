@@ -101,7 +101,7 @@ Als organisatie binnen Frogwatch kun je zelf toegang en rechten verlenen aan and
 
 1. `Manager` Een manager heeft alle rechten binnen een groep: lezen, schrijven, verwijderen, nieuwe gebruikers aanmaken.
 2. `Spectator` is een gebruiker die wél leesrechten heeft voor alle projecten en instellingen binnen de groep, maar kan zelf niets aanpassen.
-3. `User` heeft standaard geen rechten. Deze gebruiker kan niets zien/lezen en ook niet aanpassen. Een manager kan gebruikers toegang geven tot bepaalde projecten via het `Toegang` menu binnen een project. Dit is vooral bedoelt voor opdrachtgevers die graag mee willen kijken bij bepaalde projecten. Een `user` kan nooit instellingen aanpassen.
+3. `User` heeft standaard geen rechten. Deze gebruiker kan niets zien/lezen en ook niet aanpassen. Een manager kan gebruikers toegang geven tot bepaalde projecten via het `Toegang` menu binnen een project. Dit is vooral bedoeld voor opdrachtgevers die graag mee willen kijken bij bepaalde projecten. Een `user` kan nooit instellingen aanpassen.
 
 Een nieuwe gebruiker krijgt automatisch een email met een link om een wachtwoord aan te maken.
 
@@ -111,7 +111,7 @@ Een nieuwe gebruiker krijgt automatisch een email met een link om een wachtwoord
 
 Naast gebruikers zijn er ook contacten. Een contact kan niet inloggen op het Dashboard, maar kan informatie ontvangen in de vorm van emails en sms-berichten. Er kunnen berichten verstuurd worden als er normoverschrijdingen gemeten worden, of als er een nieuwe rapport met trillingsdata beschikbaar is.
 
-Contacten worden in tegenstelling tot `user`s ingesteld per project. Als je een nieuw `contact` definieert moet je een email adres en/of een telefoonnummer invullen. Daarnaast moet je expliciet aangeven of er emails en/of sms berichten verstuurd moeten worden. Hiermee kun je meldingen dus aan of uit zetten voor dit contact. Daarnaast is er een meldingmasker waarmee aangegeven wordt op welke dagen er berichten verstuurd mogen worden. Dus bijvoorbeeld alleen op de dagen dat een contact persoon aan het werk is.
+Contacten worden in tegenstelling tot een `user` ingesteld per project. Als je een nieuw `contact` definieert moet je een emailadres en/of een telefoonnummer invullen. Daarnaast moet je expliciet aangeven of er emails en/of sms berichten verstuurd moeten worden. Hiermee kun je meldingen dus aan of uit zetten voor dit contact. Daarnaast is er een meldingmasker waarmee aangegeven wordt op welke dagen er berichten verstuurd mogen worden. Dus bijvoorbeeld alleen op de dagen dat een contact persoon aan het werk is.
 
 
 ![Nieuwe Gebruiker](img/authorisatie.png).
