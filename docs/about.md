@@ -4,4 +4,4 @@ Frogwatch werd in Delft ontwikkeld met de Nederlandse regelgeving en Nederlandse
 
 # Frogwatch website
 
-Op de [Frogwatch website](https://www.frog.watch/made-in-delft/) vind u meer informatie over Frogwatch.
+Op de [Frogwatch website](https://www.frog.watch/) vind u meer informatie over Frogwatch.

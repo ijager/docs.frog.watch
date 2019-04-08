@@ -9,7 +9,7 @@ Zoek je wat uitgebreidere informatie? In het menu [Hardware](../hardware/) vind 
 
 ## Inloggen op het Frogwatch Dashboards
 
-Wanneer je voor de eerste keer een Frogwatch Meter aanschaft wordt er een account voor je aangemaakt op het [Frogwatch Dashboard](#todo). Je ontvangt een email met een link om je wachtwoord in te stellen.
+Wanneer je voor de eerste keer een Frogwatch Meter aanschaft wordt er een account voor je aangemaakt op het [Frogwatch Dashboard](https://dashboard.frog.watch). Je ontvangt een email met een link om je wachtwoord in te stellen.
 
 In het menu `Organisatie` kun je zelf extra gebruikersaccounts toevoegen en zaken zoals contactgegevens en een bedrijfslogo toevoegen.
 
