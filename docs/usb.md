@@ -3,7 +3,7 @@
 
 ![Frogwatch USB](img/frogwatch-usb.png)
 
-Met de Frogwatch USB software kun je een Frogwatch meter direct op locatie uitlezen. Naast de berekende SBR waardes heb je hiermee realtime inzicht in het volledige gemeten signaal (de zgn 'waveworm'). Hiermee kun je snel vaststellen welke trillingen worden veroorzaakt door bijvoorbeeld een passerend voertuig of een andere trillingsbron. Ook is het mogelijk om het gemeten signaal [op te slaan voor latere analyse](#data-loggen) (bijvoorbeeld het berekenen van de FFT rondom bepaalde meetwaarden).
+Met de Frogwatch USB software kun je een Frogwatch meter direct op locatie uitlezen. Naast de berekende SBR waardes heb je hiermee realtime inzicht in het volledige gemeten signaal (de zgn 'waveform'). Hiermee kun je snel vaststellen welke trillingen worden veroorzaakt door bijvoorbeeld een passerend voertuig of een andere trillingsbron. Ook is het mogelijk om het gemeten signaal [op te slaan voor latere analyse](#data-loggen) (bijvoorbeeld het berekenen van de FFT rondom bepaalde meetwaarden).
 
 ## Installatie
 
