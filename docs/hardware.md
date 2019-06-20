@@ -107,7 +107,9 @@ Dit werkt overigens ook als je de meter met de knop start of stopt: de meter maa
 
 ## USB verbinding
 
-De Frogwatch meter kan via usb verbonden worden met een computer. Met de Frogwatch software kun je live meekijken op locatie. Dit is vooral handig als moet worden vastgesteld wat de oorzaak van bepaalde trillingen is. Zo kun je observeren dat er zwaar verkeer langsrijdt en meteen de piekwaarde aflezen en het tijdstip noteren.
+De Frogwatch meter kan [via usb verbonden worden](../usb/) met een computer. Met de Frogwatch software kun je live meekijken op locatie. Dit is vooral handig als moet worden vastgesteld wat de oorzaak van bepaalde trillingen is. Zo kun je observeren dat er zwaar verkeer langsrijdt en meteen de piekwaarde aflezen en het tijdstip noteren.
+
+Meer informatie hierover vind je onder [Frogwatch USB](../usb/).
 
 # Battery Pack
 
