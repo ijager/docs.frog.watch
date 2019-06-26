@@ -47,22 +47,22 @@ Standaard laat de grafiek de absolute waardes zien van de laatste 30 seconden. B
 * `Y Max`: Standaard schaalt de y-as van de plot automatisch, hier kun je een vaste waarde instellen.
 
 # Data loggen
-
-Het is mogelijk om automatisch meetdata op te slaan rondom bepaalde piekwaardes. Dit kun je aan/uit zetten met het vinkje `Loggen ingeschakeld`. Per keer dat je een meting start wordt een nieuw bestand opgeslagen. Iedere keer als er een waarde boven het triggerlevel wordt gemeten, wordt de waveform van een aantal seconden voor de piekwaarde tot een aantal seconden erna aan het bestand toegevoegd.
+Het is mogelijk om automatisch meetdata op te slaan rondom bepaalde piekwaardes. Hiermee kun je achteraf uitgebreide analyses doen, zoals het berekenen van frequentiecomponenten rondom piekwaardes.
 
 ## Instellingen
 
 Klik bovenaan het programma op `Loginstellingen` om de instellingen te openen.
 
-**Let op:** vergeet niet het vinkje `Loggen ingeschakeld` aan te zetten als je klaar bent met instellen. Kun je het instellingen-menu niet openen? Zet dan eerst `Loggen ingeschakeld` uit.
+**Let op:** vergeet niet het vinkje `Data loggen` aan te zetten als je klaar bent met instellen. Kun je het instellingen-menu niet openen? Zet dan eerst `Data loggen` uit.
 
 ![Menu loginstellingen](img/frogwatch-usb-logsettings.png)
 
 ### Triggers
 
 Hier kies je het triggerlevel. Zodra een waarde boven dit niveau wordt gemeten, word er een aantal seconden aan data opgeslagen.
-Omdat de Frogwatch meter verschillende types metingen kan doen, moet je voor elke eenheid een trigger level kiezen.
-Doe je een SBR-B meting? Dan geldt de waarde `SBR B Veff`.
+Omdat de Frogwatch meter verschillende types metingen kan doen, moet je voor elke eenheid een trigger level kiezen. Eenheden die je niet wilt opslaan kun je het beste een hoog trigger level geven om onnodige opslag te beperken.
+
+Doe je een SBR-B meting? Dan geldt de waarde `SBR B Veff`. Ook `Snelheid` is dan beschikbaar. Door het level voor `Snelheid` heel hoog te zetten voorkom je dat die data ook gelogd wordt.
 
 ### Log window
 
@@ -72,10 +72,16 @@ Dit is het aantal seconden voor en na de piekwaarde die word opgeslagen. Stel je
 
 Kies een map waar de data word opgeslagen. Per keer dat je een meting start word in deze map een nieuw bestand aangemaakt, die begint met de gekozen naam. In dit bestand komt de meetdata rondom alle piekwaardes hoger dan het ingestelde triggerlevel.
 
-Bijvoorbeeld: je doet een acceleratie meting. Als map kies je `C:\users\mijnnaam\Desktop` en bij `Bestandsnaam begint met` kies je `mijn-meting`. Dan zal er een bestand worden opgeslagen onder `C:\users\mijnnaam\Desktop\mijn-meting-Acceleratie_0.csv` (de volgende meting heet dan `mijn-meting-Acceleratie_1.csv` en zo verder).
+Bijvoorbeeld: je doet een acceleratie meting. Als map kies je `C:\users\mijnnaam\Desktop` en bij `Bestandsnaam begint met` kies je `mijn-meting`. Dan zal er een bestand worden opgeslagen onder `C:\users\mijnnaam\Desktop\mijn-meting-Acceleratie_0.csv` (de volgende meting heet dan `mijn-meting-Acceleratie_1.csv` en zo verder). Het kan zijn dat er meerdere types data beschikbaar zijn. Bijvoorbeeld bij een SBR-B meting is zowel de snelheidsdata (mm/s) als de Veffectief beschikbaar. Elk type data (snelheid, acceleratie, Veff) word in een apart bestand opgeslagen en heeft een eigen [Trigger level](#triggers).
 
-### Start logging
-**Let op:** vergeet niet het vinkje `Loggen ingeschakeld` aan te zetten als je klaar bent met instellen. Kun je het instellingen-menu niet openen? Zet dan eerst `Loggen ingeschakeld` weer uit.
+## Logsessie starten
+Het loggen kun je aan/uit zetten met het vinkje `Data loggen`. De eerste keer dat een waarde boven het triggerlevel wordt gemeten, word een nieuw bestand aangemaakt met daarin de meetwaarden rondom deze piek. Zolang loggen aan blijft staan, wordt steeds de waveform van een aantal seconden voor de piekwaarde tot een aantal seconden erna aan het bestand toegevoegd. Ook als je de meter stopt en weer start blijft hetzelfde bestand in gebruik.
+
+## Logsessie afsluiten
+Zet het vinkje `Data loggen` uit om te stoppen met loggen. Zorg dat je het bestand niet verwijdert of van naam verandert voordat de logsessie is afgesloten.
+
+## Een nieuw bestand maken
+Door het vinkje `Data loggen` uit te schakelen sluit je het huidige bestand af. Schakel het vinkje meteen weer in om een nieuwe logsessie te starten. Zodra er een nieuwe piek gemeten wordt, wordt deze automatisch in een nieuw bestand aangemaakt. Meer informatie over de bestandsnamen vind je bij [Opslag logdata](#opslag-logdata).
 
 ## Bestandsformaat
 
