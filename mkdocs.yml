@@ -11,6 +11,7 @@ nav:
     - Kalibratie: kalibratie.md
     - FAQ: faq.md
     - About: about.md
+    - CE Informatie: ce-info.md
 
 theme:
   name: readthedocs
