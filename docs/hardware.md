@@ -13,6 +13,7 @@
 
 * Afmetingen: 180x123x59mm
 * Massa (inclusief batterij): 1200g
+* Beschermingsklasse: IP65
 * Meetbereik (amplitude): 25000 mm/s^2
 * Meetbereik (frequentie): 1-300Hz
 * Ruisvloer: 0.06mm/s
@@ -27,6 +28,8 @@ De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de
 Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](#battery-pack) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
 
 ### SMA connector: externe antenne
+
+**Belangrijk: Lees eerst de [veiligheidsinformatie](../safety/#sma-connector-externe-antenne)!**
 
 Het kan voorkomen dat er geen of onvoldoende netwerkbereik is op een meetlocatie. Bijvoorbeeld bij ondergrondse metingen of in afgeschermde ruimtes. In deze situaties kan de antenne (die normaal binnenin de Frogwatch Meter zit) via een [verlengkabel](https://www.frog.watch/product/frogwatch-externe-antennekabel/) worden aangesloten:
 
@@ -154,7 +157,6 @@ Het opladen van de batterij kan tot ca 8 uur duren als deze volledig leeg is. Op
 
 De battery packs zijn beveiligd tegen kortsluiting, overbelasting, overcharge en diepontladen. Als een van deze fouten optreed schakelt de battery pack zichzelf uit.
 
-
 # 12V voedingsadapter
 
 ![Frogwatch voedingsadapter](img/voedingsadapter2.png)
@@ -170,6 +172,8 @@ Daarnaast kan de Frogwatch meter automatisch de batterij opladen wanneer de voed
 Reserve adapters zijn [los verkrijgbaar in de webshop](https://www.frog.watch/product/frogwatch-12v-voedingsadapter/).
 
 De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan worden aan de meter. Hiermee weet je zeker dat de stroomkabel stevig bevestigd is en niet lostrilt.
+
+**Let op:** De standaard meegeleverde voedingsadapter heeft geen IP65 rating en is daarmee alleen bedoeld voor binnengebruik.
 
 **Let op:** De 12V adapter is alleen bedoeld voor gebruik in combinatie met de Frogwatch meter en kan niet op een batterij worden aangesloten. Om losse batterijen op te laden heb je de Frogwatch Li-ion oplader nodig.
 

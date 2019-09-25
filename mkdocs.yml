@@ -4,6 +4,7 @@ site_author: Jitter
 
 nav:
     - Home: index.md
+    - Veiligheidsinformatie: safety.md
     - Getting Started: gettingstarted.md
     - Hardware: hardware.md
     - Dashboard: dashboard.md
