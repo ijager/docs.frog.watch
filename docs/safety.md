@@ -23,6 +23,14 @@ Deze pagina bevat belangrijke informatie over veilig gebruik van de Frogwatch Me
 
 Uitgebreide specificaties over de meter zelf vind je bij [Hardware](../hardware).
 
+## Benodigde accessoires
+Om de Frogwatch meter veilig en juist te gebruiken zijn de volgende accesiores benodigd:
+
+* De [Frogwatch accupack](../hardware/#battery-pack)
+* De [12V voedingsadapter](../hardware/#12v-voedingsadapter)
+
+Deze accesoires worden standaard meegeleverd met de Frogwatch meter. Gebruik alleen de officiële accesoires.
+
 ## Li-ion batterij
 
 De Frogwatch meter maakt gebruik van een Li-ion accupack. Accupacks kunnen een brandrisico vormen als deze beschadigd raken door bijvoorbeeld een impact of externe hittebron. Omdat de accupack zeer veel energie bevat is het belangrijk hier zorgvuldig mee om te gaan:
@@ -55,6 +63,17 @@ De Frogwatch meter maakt gebruik van een Li-ion accupack. Accupacks kunnen een b
 
 ## Externe Aansluitingen
 
+### USB aansluiting (binnen deksel)
+
+De USB aansluiting kan uitsluitend gebruikt worden om data uit te wisselen met een computer. Gebruik hiervoor een geschikte USB 2.0 high-speed kabel.
+
+* Isolatie: niet geisoleerd, shielding verbonden met metalen behuizing
+* USB power: niet van toepassing
+* Signaal: USB 2.0 high-speed
+* Spanning: 5V tolerant
+
+Het gebruik van de USB aansluiting wordt verder uitgelegd op de [Hardware pagina](../hardware/#usb-verbinding).
+
 ### DC jack: 12V voeding
 
 De Frogwatch heeft een 12V, 3A rated voedingsadapter nodig. De meegeleverde voedingsadapter is hiervoor geschikt. Gebruik van een andere voedingsadapter is op eigen risico. Het gebruikt van de 12V aansluiting wordt verder uitgelegd op de [Hardware pagina](../hardware/#dc-jack-12v-voeding).
@@ -62,6 +81,10 @@ De Frogwatch heeft een 12V, 3A rated voedingsadapter nodig. De meegeleverde voed
 **Let op:** De standaard meegeleverde voedingsadapter heeft geen IP65 rating en is daarmee alleen bedoeld voor binnengebruik.
 
 ### SMA connector: externe antenne
+
+* Maximum input power: 50W
+* Impedantie: 50 Ohm
+* Alleen voor passieve antennes
 
 Bij gebruik van een (optionele) externe antennekabel kunnen gevaren optreden. Bestudeer deze veiligheidsinstructies aandachtig en gebruik de externe antenne alleen wanneer u er zeker van bent dat dit noodzakelijk is en u deze veilig kunt installeren.
 
@@ -98,3 +121,16 @@ Mocht er toch een accupack op de grond vallen, houd deze dan apart op een brandv
 
 * **Plaats de meter pas nadat deze handleiding is gelezen**<br>
 Het is belangrijk dat alle veiligheidsinformatie gelezen en begrepen is voordat met het systeem gewerkt wordt.
+
+## Contactgegevens
+
+Frogwatch is een onderdeel van Jitter. Voor technische ondersteuning, informatie en service staat het team voor je klaar dat Frogwatch ontwikkelde.
+
+Jitter<br>
+Staalweg 1<br>
+2612 KK  Delft<br>
+
+015 – 455 05 74
+
+[info@jitter.company](mailto:info@jitter.company)<br>
+[www.jitter.company](www.jitter.company)

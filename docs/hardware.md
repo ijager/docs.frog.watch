@@ -163,7 +163,11 @@ De battery packs zijn beveiligd tegen kortsluiting, overbelasting, overcharge en
 
 ## Specificaties
 
-Deze voedingsadapter is gespecificeerd op 12V 3A. Hiermee heeft de adapter voldoende vermogen om de Frogwatch van stroom te voorzien, zelfs als deze gelijktijdig zijn batterij aan het opladen is.
+* Afmetingen: ca 165x85x40mm (inclusief verpakking)
+* Ingang: 100-240VAC, 50/60Hz, 1.0-1.5A
+* Uitgang: 12VDC 3.34A, 40W max
+
+Deze voedingsadapter heeft voldoende vermogen om de Frogwatch van stroom te voorzien, zelfs als deze gelijktijdig zijn batterij aan het opladen is.
 
 ## Gebruik
 
