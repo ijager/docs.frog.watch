@@ -25,9 +25,14 @@ Een uitgebreid overzicht van de vind je op de [Frogwatch Facts pagina](https://w
 De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de aandacht trekt van vandalen of nieuwsgierige passanten. Dit is ook de reden dat er aan de buitenkant geen display, knoppen, leds etc zichtbaar zijn. Er zijn slechts twee (optionele) aansluitingen aan de onderkant. De rest is alleen toegankelijk als je het [deksel opent](#deksel).
 
 ### DC jack: 12V voeding
+
+![12VDC connector label](img/Frogwatch_label_12VDC.png)
+
 Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](#battery-pack) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
 
 ### SMA connector: externe antenne
+
+![Antenne connector label](img/Frogwatch_label_ANT.png)
 
 **Belangrijk: Lees eerst de [veiligheidsinformatie](../safety/#sma-connector-externe-antenne)!**
 

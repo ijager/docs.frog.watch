@@ -23,6 +23,20 @@ Deze pagina bevat belangrijke informatie over veilig gebruik van de Frogwatch Me
 
 Uitgebreide specificaties over de meter zelf vind je bij [Hardware](../hardware).
 
+## Betekenis symbolen
+
+Op de frogwatch is een aantal symbolen aangebracht, deze worden hieronder toegelicht:
+
+![12VDC connector label](img/Frogwatch_label_12VDC.png)
+<br>*Aansluiting 12V voedingsadapter*
+
+Dit label vind je boven de [12V aansluiting](#dc-jack-12v-voeding) voor de meegeleverde voedingsadapter. Het laat de benodigde specificaties van de voedingsadapter zien: 12V, 3A gelijkstroom. Lees eerst deze handleiding voordat je de voeding aansluit.
+
+![Antenne connector label](img/Frogwatch_label_ANT.png)
+<br>*Aansluiting externe antenne*
+
+Dit label vind je boven de [aansluiting voor de (optionele) externe antenne](#sma-connector-externe-antenne). Onjuist gebruik kan gevaren opleveren, lees eerst deze handleiding voordat je de externe antenne optie aansluit.
+
 ## Benodigde accessoires
 Om de Frogwatch meter veilig en juist te gebruiken zijn de volgende accesiores benodigd:
 
@@ -76,11 +90,23 @@ Het gebruik van de USB aansluiting wordt verder uitgelegd op de [Hardware pagina
 
 ### DC jack: 12V voeding
 
+![12VDC connector label](img/Frogwatch_label_12VDC.png)
+
+De aansluiting voor 12V voeding is gemarkeerd met bovenstaande symbolen.
+
+#### Specificaties
+
 De Frogwatch heeft een 12V, 3A rated voedingsadapter nodig. De meegeleverde voedingsadapter is hiervoor geschikt. Gebruik van een andere voedingsadapter is op eigen risico. Het gebruikt van de 12V aansluiting wordt verder uitgelegd op de [Hardware pagina](../hardware/#dc-jack-12v-voeding).
 
 **Let op:** De standaard meegeleverde voedingsadapter heeft geen IP65 rating en is daarmee alleen bedoeld voor binnengebruik.
 
 ### SMA connector: externe antenne
+
+![Antenne connector label](img/Frogwatch_label_ANT.png)
+
+De aansluiting voor externe antenne is gemarkeerd met bovenstaande symbolen.
+
+#### Specificaties
 
 * Maximum input power: 50W
 * Impedantie: 50 Ohm
