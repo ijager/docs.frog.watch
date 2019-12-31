@@ -3,7 +3,9 @@
 
 ![Frogwatch USB](img/frogwatch-usb.png)
 
-Met de Frogwatch USB software kun je een Frogwatch Meter direct op locatie uitlezen. Naast de berekende SBR waardes heb je hiermee realtime inzicht in het volledige gemeten signaal (de zgn 'waveform'). Hiermee kun je snel vaststellen welke trillingen worden veroorzaakt door bijvoorbeeld een passerend voertuig of een andere trillingsbron. Ook is het mogelijk om het gemeten signaal [op te slaan voor latere analyse](#data-loggen) (bijvoorbeeld het berekenen van de FFT rondom bepaalde meetwaarden).
+Met de Frogwatch USB software kun je een Frogwatch Meter direct op locatie uitlezen. Naast de berekende SBR waardes heb je hiermee realtime inzicht in het volledige gemeten signaal (de zgn 'waveform'). Hiermee kun je snel vaststellen welke trillingen worden veroorzaakt door bijvoorbeeld een passerend voertuig of een andere trillingsbron.
+
+Ook is het mogelijk om het gemeten signaal [op te slaan voor latere analyse](#data-loggen) (bijvoorbeeld het berekenen van de FFT rondom bepaalde meetwaarden) en om [eerder gemeten waarden](#uitlezen-eerder-opgeslagen-frequentiedata) vanaf de Frogwatch meter naar de computer te downloaden.
 
 ## Installatie
 
@@ -11,12 +13,11 @@ Frogwatch USB is beschikbaar voor Windows en MacOS. De software is te downloaden
 
 ### Windows
 
-De Windows installatiewizard werkt zoals de meeste installatieprogramma's. Het installatieprogramma heeft beheerdersrechten nodig (er wordt een driver geinstalleerd om met de Frogwatch Meter te communiceren). Mocht je geen admin-rechten hebben, vraag dan je IT-beheerder om hiermee te assisteren. 
+De Windows installatiewizard werkt zoals de meeste installatieprogramma's. Het installatieprogramma heeft beheerdersrechten nodig (er wordt een driver geinstalleerd om met de Frogwatch Meter te communiceren). Mocht je geen admin-rechten hebben, vraag dan je IT-beheerder om hiermee te assisteren.
 
 ### MacOS
 
 Op MacOS hoef je de download alleen te verplaatsen naar je Applications/Programma's map. Omdat je de app niet via de App Store installeert kan het zijn dat je een waarschuwing te zien krijgt. Via Systeemvoorkeuren -> Beveiliging kun je dan toestemming geven om de app te starten.
-
 
 ## Frogwatch USB aansluiten
 
@@ -26,6 +27,7 @@ Zonder aangesloten Frogwatch meter staat hier `no device`.
 Sluit de Frogwatch Meter aan via een mini-USB kabel. Zodra de meter is opgestart (lampjes zijn uit), dan zal de naam van de meter linksboven in beeld komen te staan (standaard is de naam een serienummer in het formaat `1234-1234-1234`).
 
 ### Geen verbinding?
+
 Als er geen meting actief is gaat de Frogwatch Meter in een slaapstand om stroom te besparen. Druk even op de knop op de meter om deze 'wakker' te maken. De meter maakt dan meteen verbinding met de computer.
 
 Werkt het niet? Je kunt proberen het programma opnieuw te starten of een andere USB kabel te gebruiken.
@@ -61,7 +63,7 @@ Mogelijke streams:
 
 
 # Data loggen
-Het is mogelijk om automatisch meetdata op te slaan rondom bepaalde piekwaardes. Hiermee kun je achteraf uitgebreide analyses doen, zoals het berekenen van frequentiecomponenten rondom piekwaardes.
+Het is mogelijk om automatisch meetdata op de computer op te slaan rondom bepaalde (instelbare) piekwaardes. Hiermee kun je achteraf uitgebreide analyses doen, zoals het berekenen van frequentiecomponenten rondom piekwaardes.
 
 ## Instellingen
 
@@ -100,12 +102,54 @@ Zet het vinkje `Data loggen` uit om te stoppen met loggen. Zorg dat je het besta
 ## Een nieuw bestand maken
 Door het vinkje `Data loggen` uit te schakelen sluit je het huidige bestand af. Schakel het vinkje meteen weer in om een nieuwe logsessie te starten. Zodra er een nieuwe piek gemeten wordt, wordt deze automatisch in een nieuw bestand aangemaakt. Meer informatie over de bestandsnamen vind je bij [Opslag logdata](#opslag-logdata).
 
-## Bestandsformaat
+## Bestandsformaat logdata
 
-Het bestand met meetdata wordt opgeslagen in CSV-formaat, waardoor het gemakkelijk te importeren is in bijvoorbeeld een spreadsheet.
+Het bestand met meetdata wordt opgeslagen in CSV-formaat, waardoor het gemakkelijk te importeren is in bijvoorbeeld een spreadsheet. Elke regel in het CSV-bestand is als volgt opgebouwd:
+
+`tijd` `X-as trillingswaarde` `Y-as trillingswaarde` `Z-as trillingswaarde`
+
 De eerste kolom is de tijd. Dit is een zgn `unix timestamp` in microseconden. Dit is gedefinieerd als het aantal microseconden sinds 1 januari 1970. Hierdoor is het gemakkelijk om te bepalen wanneer / hoe laat de meting gedaan is.
 
 Daarna volgen drie kolommen met respectievelijk de X-as, Y-as en Z-as.
 
 Aan de bestandsnaam kun je zien wat de eenheid is: acceleratie, snelheid of SBR-B Veff.
 
+# Uitlezen eerder opgeslagen frequentiedata
+
+**LET OP**: [Installeer de laatste versie van Frogwatch USB](#installatie) om deze functie te gebruiken.
+
+Via de tab `Download` is een overzicht beschikbaar van de 10 laatste meetconfiguraties waarin de Frogwatch meter actief was. Oudere data wordt automatisch door de meter verwijderd.
+
+Elk van de laatstgebruikte meetconfiguraties is omschreven met onder andere de naam van het project, cluster, meetpunt en welke data er beschikbaar is. Daarnaast kunnen de volgende knoppen getoond worden:
+
+* **Download FFT Data**
+<br>
+Deze knop is er alleen als er ook FFT data is om op te slaan.
+Klik op de knop en kies een bestandsnaam. De FFT waardes worden in het gekozen bestand opgeslagen. Dit kan best even duren, zeker als er lang gemeten is!
+
+* **Verwijder Dataset**
+<br>
+Hiermee kan een bestaande dataset verwijderd worden om ruimte vrij te maken voor een volgende meting. **LET OP:** Data die verwijderd is kan niet meer worden teruggehaald!
+
+* **Verwijder Dataset en Herstart**
+<br>
+Dit is hetzelfde als `Verwijder Dataset`, maar zorgt ervoor dat de Frogwatch meter opnieuw opstart. Dit is nodig als je de meetdata weggooit waar de meter op dit moment mee bezig is.
+
+**LET OP:** FFT data is alleen beschikbaar als de meter [via het dashboard is ingesteld om realtime FFT data op te slaan](../dashboard/#real-time-frequentiedata-fft-opslaan).
+
+## Bestandsformaat FFT data
+
+Het bestand met meetdata wordt opgeslagen in CSV-formaat, waardoor het gemakkelijk te importeren is in bijvoorbeeld een spreadsheet. Elke regel in het CSV-bestand is als volgt opgebouwd:
+
+`tijd` `X-as frequentiedata` `Y-as frequentiedata` `Z-as frequentiedata`
+
+Voor elk van de bovenstaande gegevens is hieronder weergegeven uit hoeveel opeenvolgende waardes (kolommen) deze bestaan.
+
+| meetbereik | Tijd | X-as | Y-as | Z-as |
+|------------|------|------|------|------|
+| tot 100 Hz | 1    | 341  | 341  | 341  |
+| tot 300 Hz | 1    | 1024 | 1024 | 1024 |
+
+De eerste kolom is de tijd. Dit is een zgn `unix timestamp` in microseconden. Dit is gedefinieerd als het aantal microseconden sinds 1 januari 1970. Hierdoor is het gemakkelijk om te bepalen wanneer / hoe laat de meting gedaan is.
+
+Hierna volgt een groot aantal kolommen, die driemaal herhaald worden voor de X-, Y- en Z-as. De frequentie-resolutie is `0.293` Hz. In de meeste gevallen zal er tot 100Hz gemeten worden. Dan zijn er `341` frequentie-intervallen van steeds `0.293` Hz breed die samen het frequentiebereik van 0-100Hz vormen.

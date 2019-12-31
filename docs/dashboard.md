@@ -46,6 +46,28 @@ Op dit moment worden er 4 meetmethodes ondersteund:
 3. **Hindermeting (SBR B).** Deze methode gaat volgens de SBR B richtlijn. Dat wil zeggen dat er elke 30 seconde een datapunt wordt uitgerekend waar een Vmax uit volgt. Dit is een dimensieloos  getal gerelateerd aan de trillingssnelheid (Een effectieve waarde gemiddeld over 30 seconde). Deze methode is dus te gebruiken met SBR B normen en ook zonder norm.
 4. **Kalibratie.** Kies deze meetmethode als uw meters gekalibreerd moeten worden. Dit zorgt automatisch voor de juiste meetinstellingen. Ook wordt in deze methode de trillingsdata niet verstuurd naar het Frogwatch Dashboard om de kalibratie sneller te laten verlopen.
 
+### Opties
+
+#### Dataregistratiedrempel
+
+De registratiedrempel is een manier om hele lage trillingswaardes te negeren: waardes lager dan deze drempelwaarde komen niet beschikbaar in het Frogwatch Dashboard. Dit bespaart energie en zorgt ervoor dat je alleen data in de grafieken ziet die belangrijk is. Standaard staat dit op 0 (uit: alle waardes beschikbaar).
+
+#### Meting hoger dan 1g
+
+Verwacht je zeer hevige trillingen boven 1g (de zwaartekrachtsversnelling)? Dan kun je deze optie aanvinken. Dit staat standaard uit omdat de meeste normen veel lager dan 1g liggen.
+
+#### Meting tot 300Hz
+
+Standaard word er tot 100Hz gemeten. In sommige situaties kan het wenselijk zijn om ook hogere frequenties te kunnen detecteren. Als de dominante frequentie boven 100Hz ligt, wordt deze getoetst aan de 100Hz norm (indien van toepassing).
+
+#### Real time frequentiedata (FFT) opslaan
+
+**LET OP**: *Dit wordt alleen ondersteund door meters met firmware **2.9.0** of nieuwer*.
+
+Dit is een geavanceerde optie die het mogelijk maakt het volledige FFT specrum op te slaan. Voor elke seconde dat er gemeten is, wordt dan het totale spectrum van 0-100Hz opgeslagen.
+
+Omdat dit erg veel data is, stuurt de Frogwatch deze niet door naar het dashboard. De data wordt intern in de meter opgeslagen en kan [via Frogwatch USB worden uitgelezen](../usb/#uitlezen-eerder-opgeslagen-frequentiedata).
+
 ### Toetsing
 
 Kies in deze sectie een van de normen (of geen) die beschikbaar zijn voor de gekozen meetmethode. Voor SBR A en C normen kunnen tevens veiligheidsfactoren worden ingesteld. Dit zorgt er effectief voor dat de norm verschoven wordt.
