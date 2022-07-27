@@ -3,6 +3,25 @@
 Hier vind je antwoorden op enkele vaker gestelde vragen. Natuurlijk kun je vragen ook altijd [direct aan de makers stellen](https://www.frog.watch/contact/).
 
 
+# Wat zijn de x,y,z assen in de huidige oriëntatie van de meter?
+
+De meetassen van de Frogwatch draaien zodanig mee dat de `z-as` altijd de as is die het meest richting de zwaartekracht meet. De `x-as` en `y-as` draaien automatisch mee volgens een rechtshandig assenstensel. Hieronder worden de meetassen getoond voor de verschillende orientaties.
+
+## Oriëntatie Plat
+
+In de platte oriëntatie wijst de `z-as` naar boven door de deksel richting de zwaartekracht. De `x-as` wijst naar de lange kant van de meter en de `y-as` naar de zijkant.
+
+![](img/Frogwatch_orientatie_plat.jpeg)
+
+## Oriëntatie Rechtop
+In de rechtop oriëntatie wijst de `z-as` omhoog richting de zwaartekracht. De `x-as` wijst naar buiten door de deksel en de `y-as` naar de zijkant.
+
+![](img/Frogwatch_orientatie_rechtop.jpeg)
+
+## Oriëntatie Zijwaarts
+
+In een zijwaartse oriëntatie wijst de `x-as` naar voren door de deksel en de `y-as` richting de lange kant van de meter. In de omgekeerde zijwaartse oriëntatie blijven de assen hetzelfde, maar zullen de pijlen de andere kant uit wijzen. Het enige verschil is dat de trillingen in het tijdsdomein keer -1 gaan, maar omdat de meetresultaten absolute waarden gebruiken merk je dat niet.
+![](img/Frogwatch_orientatie_zijwaarts.jpeg)
 
 # Ik heb een meter geplaatst, waarom komt deze niet online in het Dashboard?
 
