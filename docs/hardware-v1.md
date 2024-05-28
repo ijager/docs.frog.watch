@@ -35,7 +35,7 @@ De Frogwatch meter is zo ontworpen dat deze op de meetlocatie zo min mogelijk de
 
 ![12VDC connector label](img/Frogwatch_label_12VDC.png)
 
-Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](#battery-pack) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
+Hiermee kan een [12V voedingsadapter](../adapter-12v) worden aangesloten. Als de meting langer duurt dan de batterijduur, dan is het handig om de 12V voeding aan te sluiten. Hierdoor kun je ongelimiteerd meten zonder batterijen te wisselen. Het is aan te raden om altijd een [battery pack](../battery-v1) aan te sluiten. Hierdoor blijft de meting doorgaan mocht de stroom uitvallen of iemand per ongeluk de stekker eruit trekken. Je kunt via het [Frogwatch Dashboard](../dashboard) zien of de adapter is aangesloten.
 
 ### SMA connector: externe antenne
 
@@ -126,91 +126,3 @@ De Frogwatch Meter V1 kan [via usb verbonden worden](../usb/) met een computer. 
 
 Meer informatie hierover vind je onder [Frogwatch USB](../usb/).
 
-# Battery Pack
-
-![Frogwatch Battery Pack](img/batterypack1-small.png)
-
-## Specificaties
-
-* Type: Li-ion
-* Spanning: 7.2V nominaal
-* Capaciteit: 17250 mAh
-* Maximum laadstroom: 3A
-
-De battery pack wordt standaard meegeleverd met de Frogwatch meter en is is speciaal ontworpen voor een zo lang mogelijke batterijduur. Gebruik alleen originele Frogwatch batterypacks. Zo weet je zeker dat ze compatible, veilig en van goede kwaliteit zijn. Extra battery packs zijn [verkrijgbaar via de webshop](https://www.frog.watch/product/frogwatch-battery-pack/).
-
-## Aansluiten
-
-De connector past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
-
-Pak altijd de connector zelf vast en trek niet aan de kabels. Er is niet veel kracht nodig om de connector los- en vast te maken: om de batterij los te koppelen druk je op de klikverbinding zodat deze gemakkelijk los komt.
-
-## Opladen
-
-Er zijn twee manieren om de batterij op te laden:
-
-* ### Via de Frogwatch Meter
-
-De makkelijkste manier is om de batterij aan een Frogwatch meter te verbinden. Door de meter met de bijgeleverde 12V voedingsadapter van stroom te voorzien, zal de batterij worden opgeladen.
-
-* ### Via een Frogwatch Li-ion oplader
-
-De [Li-ion oplader](#li-ion-oplader) is een optionele accessoire die [apart verkrijgbaar](https://www.frog.watch/product/frogwatch-li-ion-oplader/) is via de Frogwatch Webshop. Dit is vooral handig in combinatie met de [los verkrijgbare reserve battery packs](https://www.frog.watch/product/frogwatch-battery-pack/).
-
-Zo kun je bijvoorbeeld een reserve batterij opladen op kantoor zodat je deze op de meetlocatie snel kunt verwisselen met een lege batterij.
-
-## Batterijduur
-
-De batterijdduur is sterk afhankelijk van hoe de Frogwatch meter is ingesteld: hoe meer uren op een dag de meter actief is, des te sneller is de batterij leeg. Tijdens een gemiddeld meetproject is dit ca 14-30 dagen.
-
-Het opladen van de batterij kan tot ca 8 uur duren als deze volledig leeg is. Opladen via de [Frogwatch Meter](#frogwatch-meter-v1) is ongeveer even snel als via de [Li-ion oplader](#li-ion-oplader).
-
-## Beveiliging
-
-De battery packs zijn beveiligd tegen kortsluiting, overbelasting, overcharge en diepontladen. Als een van deze fouten optreed schakelt de battery pack zichzelf uit.
-
-# 12V voedingsadapter
-
-![Frogwatch voedingsadapter](img/voedingsadapter2.png)
-
-## Specificaties
-
-* Afmetingen: ca 165x85x40mm (inclusief verpakking)
-* Ingang: 100-240VAC, 50/60Hz, 1.0-1.5A
-* Uitgang: 12VDC 3.34A, 40W max
-
-Deze voedingsadapter heeft voldoende vermogen om de Frogwatch van stroom te voorzien, zelfs als deze gelijktijdig zijn batterij aan het opladen is.
-
-## Gebruik
-
-De 12V voedingsadapter wordt standaard meegeleverd met de Frogwatch meter en is bedoeld om deze van stroom te voorzien (als dit beschikbaar is op de meetlocatie).
-Daarnaast kan de Frogwatch meter automatisch de batterij opladen wanneer de voedingsadapter verbonden is.
-Reserve adapters zijn [los verkrijgbaar in de webshop](https://www.frog.watch/product/frogwatch-12v-voedingsadapter/).
-
-De connector is uitgevoerd met een schroefring, waarmee de adapter vastgezet kan worden aan de meter. Hiermee weet je zeker dat de stroomkabel stevig bevestigd is en niet lostrilt.
-
-**Let op:** De standaard meegeleverde voedingsadapter heeft geen IP65 rating en is daarmee alleen bedoeld voor binnengebruik.
-
-**Let op:** De 12V adapter is alleen bedoeld voor gebruik in combinatie met de Frogwatch meter en kan niet op een batterij worden aangesloten. Om losse batterijen op te laden heb je de Frogwatch Li-ion oplader nodig.
-
-
-# Li-ion oplader
-
-![Frogwatch li-ion oplader](img/li_ion_oplader.png)
-
-## Specificaties
-
-Deze oplader is speciaal geselecteerd om Frogwatch battery packs op te laden. De laadstroom bedraagt 3A, het duurt ongeveer 5-8 uur om een lege batterij volledig op te laden. De oplader is [verkrijgbaar in de webshop](https://www.frog.watch/product/frogwatch-li-ion-oplader/).
-
-## Aansluiten
-
-De connector past maar op één manier op de connector van de Frogwatch. Bij het aansluiten hoor je een lichte klik waardoor je weet dat deze goed vast zit.
-
-Pak altijd de connector zelf vast en trek niet aan de kabels. Er is niet veel kracht nodig om de connector los- en vast te maken: om de batterij los te koppelen druk je op de klikverbinding zodat deze gemakkelijk los komt.
-
-## Gebruik
-
-Zodra je de oplader aan de batterij koppelt, gaat er een lampje op de lader branden:
-
-* Rood betekent dat de batterij wordt opgeladen.
-* Groen betekent dat de batterij vol is.

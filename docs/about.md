@@ -17,6 +17,6 @@ Schieweg 93<br>
 015 – 455 05 74
 
 [info@jitter.company](mailto:info@jitter.company)<br>
-[www.jitter.company](www.jitter.company)
+[www.jitter.company](https://www.jitter.company)
 
 

@@ -9,10 +9,16 @@ nav:
     - Frogwatch V1:
       - safety-v1.md
       - hardware-v1.md
+      - battery-v1.md
+      - charger-v1.md
+      - adapter-12v.md
       - ce-info-v1.md
     - Frogwatch V2:
       - safety-v2.md
       - hardware-v2.md
+      - battery-v2.md
+      - charger-v2.md
+      - adapter-12v.md
       - ce-info-v2.md
     - Dashboard: dashboard.md
     - Frogwatch USB: usb.md

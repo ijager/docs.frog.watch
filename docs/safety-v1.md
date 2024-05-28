@@ -40,8 +40,8 @@ Dit label vind je boven de [aansluiting voor de (optionele) externe antenne](#sm
 ## Benodigde accessoires
 Om de Frogwatch meter veilig en juist te gebruiken zijn de volgende accesiores benodigd:
 
-* De [Frogwatch accupack](../hardware-v1/#battery-pack)
-* De [12V voedingsadapter](../hardware-v1/#12v-voedingsadapter)
+* De [Frogwatch accupack](../battery-v1)
+* De [12V voedingsadapter](../adapter-12v)
 
 Deze accesoires worden standaard meegeleverd met de Frogwatch meter. Gebruik alleen de officiële accesoires.
 
@@ -159,4 +159,4 @@ Schieweg 93<br>
 015 – 455 05 74
 
 [info@jitter.company](mailto:info@jitter.company)<br>
-[www.jitter.company](www.jitter.company)
+[www.jitter.company](https://www.jitter.company)
