@@ -8,6 +8,6 @@ Voor algemene informatie over Frogwatch zie [www.frog.watch](https://www.frog.wa
 
 Frogwatch bestaat uit [Frogwatch Meters](hardware) die in verbinding staan met het [Frogwatch Dashboard](dashboard).
 
-**Let op:** lees eerst de [Veiligheidsinformatie](safety)!
+**Let op:** lees eerst de [Veiligheidsinformatie](safety-v2)!
 
 Ga naar [Getting Started](gettingstarted) om snel aan de slag te gaan met Frogwatch.

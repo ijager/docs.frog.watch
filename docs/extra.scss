@@ -56,7 +56,13 @@ h2, h3, h4, h5, h6 {
   }
 }
 
+
+
+
 .wy-menu-vertical {
+  .caption + ul {
+    margin-left: 1em;
+  }
   a:active {
     background-color: $accent-color;
   }
@@ -75,5 +81,9 @@ h2, h3, h4, h5, h6 {
 .rst-versions {
   color: #fcfcfc;
   background: $primary-color-dark;
+}
+
+.warning {
+  background-color: #d95114;
 }
 

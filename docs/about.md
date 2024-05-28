@@ -11,8 +11,8 @@ Op de [Frogwatch website](https://www.frog.watch/) vindt u meer informatie over 
 Frogwatch is een onderdeel van Jitter. Voor aanschaf, informatie en service staat het team voor je klaar dat Frogwatch ontwikkelde.
 
 Jitter<br>
-Staalweg 1<br>
-2612 KK  Delft<br>
+Schieweg 93<br>
+2627 AT Delft<br>
 
 015 – 455 05 74
 

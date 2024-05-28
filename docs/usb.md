@@ -34,7 +34,7 @@ Werkt het niet? Je kunt proberen het programma opnieuw te starten of een andere 
 
 ## Een meting starten
 
-Je kunt een meting starten/stoppen in het menu bovenaan met de knop `start` en `stop`. Natuurlijk kan dit ook via de [Start / Stop knop](../hardware/#status-start-stop-knop) op de meter zelf.
+Je kunt een meting starten/stoppen in het menu bovenaan met de knop `start` en `stop`. Natuurlijk kan dit ook via de [Start / Stop knop](../hardware-v1/#status-start-stop-knop) op de meter zelf.
 
 Zodra je de meting start zal het een paar seconden duren voordat de zelfkalibratie voltooid is en de meetwaarden beschikbaar komen.
 Je ziet drie grafieken, van boven naar beneden de `X-as`, `Y-as` en `Z-as`. Links naast de grafiek zie je de bijbehorende SBR waarden. Deze komen overeen met de waarden in het Frogwatch Dashboard. Voor SBR A/C update deze waarde elke seconde, voor SBR B elke 30 seconden.
@@ -50,16 +50,16 @@ Standaard laat de grafiek de absolute waardes zien van de laatste 30 seconden. B
 
 # Datastreams
 
-Frogwatch Meters kunnen verschillende soorten datastreams via USB naar de computer sturen. Welke streams er beschikbaar zijn is afhankelijk van de huidige meetconfiguratie van het cluster (In het online Dashboard).  Er kunnen ook meerdere datastreams tegelijkertijd beschikbaar zijn. Rechtsboven in is een dropdown menu met de beschikbare streams (pas als de meting gestart is). Hier kun je kiezen welke stream je wilt weergeven in de plots. 
+Frogwatch Meters kunnen verschillende soorten datastreams via USB naar de computer sturen. Welke streams er beschikbaar zijn is afhankelijk van de huidige meetconfiguratie van het cluster (In het online Dashboard).  Er kunnen ook meerdere datastreams tegelijkertijd beschikbaar zijn. Rechtsboven in is een dropdown menu met de beschikbare streams (pas als de meting gestart is). Hier kun je kiezen welke stream je wilt weergeven in de plots.
 
 ![Datastreams](img/datastreams.png)
 
 Mogelijke streams:
 
-* **SBRB (V effectief)** Het resultaat van de speciale 5.7Hz SBR B filter. 
+* **SBRB (V effectief)** Het resultaat van de speciale 5.7Hz SBR B filter.
 * **Snelheid tot 80Hz** Dit is de snelheidsdata waarop de stream SBRB (V effectief) is gebaseerd. Dus de data voordat de SBR B filter (effectieve waarde) is toegepast, maar na het 80Hz laagdoorlaatfilter.
 * **Snelheid**. Dit is de SBR A of C snelheidsdata. tot 100Hz aan frequenties.
-* **Ongefilterd** De ruwe data uit de accelerometer-sensors voordat alle signaalbewerking, filtering en schaling is toegepast. 
+* **Ongefilterd** De ruwe data uit de accelerometer-sensors voordat alle signaalbewerking, filtering en schaling is toegepast.
 
 
 # Data loggen
@@ -79,9 +79,9 @@ Hier kies je het triggerlevel. Zodra een waarde boven dit niveau wordt gemeten, 
 Omdat de Frogwatch meter verschillende types metingen kan doen, moet je voor elke eenheid een trigger level kiezen. Gebruik de checkboxen om aan te geven welke data opgeslagen moet worden. Er wordt natuurlijk alleen gelogd als data van dat type (stream) ook echt gemeten wordt.
 
 
-Doe je een SBR-B meting? Dan geldt de waarde `SBR B Veff`. Ook `Snelheid tot 80Hz` is dan beschikbaar. 
+Doe je een SBR-B meting? Dan geldt de waarde `SBR B Veff`. Ook `Snelheid tot 80Hz` is dan beschikbaar.
 
-**Belangrijk:** De trigger levels hebben niets te maken met de norm. Het loggen van data gebeurt puur en alleen op de triggerlevels die toegepast worden op de tijddomeindata (de data die je voorbij ziet scrollen). Er wordt verder ook geen rekening gehouden met (dominante) frequenties. 
+**Belangrijk:** De trigger levels hebben niets te maken met de norm. Het loggen van data gebeurt puur en alleen op de triggerlevels die toegepast worden op de tijddomeindata (de data die je voorbij ziet scrollen). Er wordt verder ook geen rekening gehouden met (dominante) frequenties.
 
 ### Log window
 

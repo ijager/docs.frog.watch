@@ -6,15 +6,23 @@ nav:
     - Home: index.md
     - Veiligheidsinformatie: safety.md
     - Getting Started: gettingstarted.md
-    - Hardware: hardware.md
+    - Frogwatch V1:
+      - safety-v1.md
+      - hardware-v1.md
+      - ce-info-v1.md
+    - Frogwatch V2:
+      - safety-v2.md
+      - hardware-v2.md
+      - ce-info-v2.md
     - Dashboard: dashboard.md
     - Frogwatch USB: usb.md
     - Kalibratie: kalibratie.md
     - FAQ: faq.md
     - About: about.md
-    - CE Informatie: ce-info.md
 
 theme:
+  features:
+    - navigation.indexes
   name: readthedocs
   prev_next_buttons_location: bottom
   custom_dir: custom_theme/

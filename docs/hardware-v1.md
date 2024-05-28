@@ -1,13 +1,18 @@
-# Frogwatch Meter
+# Frogwatch Meter V1
 
 <div style="display: flex; flex-flow: row wrap; justify-content: space-around">
 <div style="width:200px">
-<img src="../img/frogwatch-meter.png" alt="Frogwatch Meter" width="200"/>
+<img src="../img/frogwatch-meter-v1.png" alt="Frogwatch Meter V1" width="200"/>
 </div>
 <div>
-<img src="../img/frogwatch-back.png" alt="Frogwatch Meter" width="200"/>
+<img src="../img/frogwatch-back-v1.png" alt="Frogwatch Meter V1" width="200"/>
 </div>
 </div>
+
+## Veiligheidsinformatie
+
+**Let op:** lees eerst de [Veiligheidsinformatie](../safety-v1) voordat je met Frogwatch apparatuur aan de slag gaat!
+
 
 ## Specificaties
 
@@ -18,7 +23,9 @@
 * Meetbereik (frequentie): 1-300Hz
 * Ruisvloer: 0.06mm/s
 
-Een uitgebreid overzicht van de vind je op de [Frogwatch Facts pagina](https://www.frog.watch/facts/) .
+<div class="warning" style="display: block; width:100%">
+De Frogwatch V1 word niet langer geproduceerd. De opvolger is de <a href="../hardware-v2">Frogwatch V2</a>
+</div>
 
 ## Externe aansluitingen
 
@@ -34,7 +41,7 @@ Hiermee kan een [12V voedingsadapter](#12v-voedingsadapter) worden aangesloten. 
 
 ![Antenne connector label](img/Frogwatch_label_ANT.png)
 
-**Belangrijk: Lees eerst de [veiligheidsinformatie](../safety/#sma-connector-externe-antenne)!**
+**Belangrijk: Lees eerst de [veiligheidsinformatie](../safety-v1/#sma-connector-externe-antenne)!**
 
 Het kan voorkomen dat er geen of onvoldoende netwerkbereik is op een meetlocatie. Bijvoorbeeld bij ondergrondse metingen of in afgeschermde ruimtes. In deze situaties kan de antenne (die normaal binnenin de Frogwatch Meter zit) via een [verlengkabel](https://www.frog.watch/product/frogwatch-externe-antennekabel/) worden aangesloten:
 
@@ -115,7 +122,7 @@ Dit werkt overigens ook als je de meter met de knop start of stopt: de meter maa
 
 ## USB verbinding
 
-De Frogwatch meter kan [via usb verbonden worden](../usb/) met een computer. Met de Frogwatch software kun je live meekijken op locatie. Dit is vooral handig als moet worden vastgesteld wat de oorzaak van bepaalde trillingen is. Zo kun je observeren dat er zwaar verkeer langsrijdt en meteen de piekwaarde aflezen en het tijdstip noteren.
+De Frogwatch Meter V1 kan [via usb verbonden worden](../usb/) met een computer. Met de Frogwatch software kun je live meekijken op locatie. Dit is vooral handig als moet worden vastgesteld wat de oorzaak van bepaalde trillingen is. Zo kun je observeren dat er zwaar verkeer langsrijdt en meteen de piekwaarde aflezen en het tijdstip noteren.
 
 Meer informatie hierover vind je onder [Frogwatch USB](../usb/).
 
@@ -156,7 +163,7 @@ Zo kun je bijvoorbeeld een reserve batterij opladen op kantoor zodat je deze op 
 
 De batterijdduur is sterk afhankelijk van hoe de Frogwatch meter is ingesteld: hoe meer uren op een dag de meter actief is, des te sneller is de batterij leeg. Tijdens een gemiddeld meetproject is dit ca 14-30 dagen.
 
-Het opladen van de batterij kan tot ca 8 uur duren als deze volledig leeg is. Opladen via de [Frogwatch Meter](#frogwatch-meter) is ongeveer even snel als via de [Li-ion oplader](#li-ion-oplader).
+Het opladen van de batterij kan tot ca 8 uur duren als deze volledig leeg is. Opladen via de [Frogwatch Meter](#frogwatch-meter-v1) is ongeveer even snel als via de [Li-ion oplader](#li-ion-oplader).
 
 ## Beveiliging
 
