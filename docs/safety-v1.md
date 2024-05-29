@@ -15,7 +15,7 @@ Deze pagina bevat belangrijke informatie over veilig gebruik van de Frogwatch Me
 
 ## Omgevingscondities
 
-* Beschermingsklasse: IP65
+* Beschermingsklasse: IP65 (12VDC dopje gesloten)
 * Temperatuur: -10 tot 50 ℃.
 * Luchtvochtigheid: 0-90%
 
@@ -73,7 +73,7 @@ De Frogwatch meter maakt gebruik van een Li-ion accupack. Accupacks kunnen een b
 * **Gebruik nooit beschadigde accupacks**<br>
     - Als een accupack (al dan niet deels) beschadigd of versleten lijkt, of als er een vermoeden van beschadiging is (bijvoorbeeld door het laten vallen), dient de accupack niet meer gebruikt te worden en onmiddelijk te worden veiliggesteld om brandrisico's te minimaliseren.
     - Na een incident kant een batterij in eerste instantie nog ongevaarlijk lijken, maar een tijd later opeens toch een brandgevaar vormen.
-    - In het geval dat er een vloeistof of andere substantie
+    - In het geval dat er een vloeistof of andere substantie in de accupack terecht komt, eruit lekt of zichtbaar is, dient de accupack niet meer gebruikt te worden en onmiddelijk te worden veiliggesteld om brandrisico's te minimaliseren.
 
 ## Externe Aansluitingen
 
