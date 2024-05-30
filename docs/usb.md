@@ -1,6 +1,11 @@
 
 # Realtime inzicht op de meetlocatie
 
+<div class="warning" style="display: block; width:100%">
+Dit werkt alleen met de oude Frogwatch V1. Dit word niet meer ondersteund voor de <a href="../hardware-v2">Frogwatch V2</a>.
+We streven ernaar deze funtionaliteit in het dashboard te integreren.
+</div>
+
 ![Frogwatch USB](img/frogwatch-usb.png)
 
 Met de Frogwatch USB software kun je een Frogwatch Meter direct op locatie uitlezen. Naast de berekende SBR waardes heb je hiermee realtime inzicht in het volledige gemeten signaal (de zgn 'waveform'). Hiermee kun je snel vaststellen welke trillingen worden veroorzaakt door bijvoorbeeld een passerend voertuig of een andere trillingsbron.
