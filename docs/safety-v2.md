@@ -64,18 +64,29 @@ De Frogwatch meter maakt gebruik van een Li-ion accupack. Accupacks kunnen een b
     De Frogwatch accupacks zijn speciaal ontworpen voor de Frogwatch meter. Gebruik van eventuele andere accupacks kan ernstig gevaar opleveren en is voor eigen risico.
 * **Probeer de accupack nooit op te laden met een ongeschikte oplader**<br>
     De accupacks dienen ofwel via de Frogwatch zelf, ofwel via de [los verkrijgbare oplader](../hardware-v2/#li-ion-oplader) opgeladen te worden. Gebruik van andere opladers kan mogelijk gevaar opleveren en is voor eigen risico.
+
 * **Trek nooit aan kabels**<br>
     Bij gebruik in de frogwatch zelf is sinds V2 geen kabel meer nodig. Als deze toch gebruikt worden (bijvoorbeeld bij het opladen), wees dan voorzichtig met het losklikken.
     Pak altijd de connector zelf vast en trek niet aan de kabel(s)/draden. Er is niet veel kracht nodig om de connector los- en vast te maken: om de batterij los te koppelen druk je op de klikverbinding zodat deze gemakkelijk los komt.
+
+* **Wees extra voorzichtig bij het opladen**<br>
+    Als je accupacks oplaad met de losse li-ion lader is de pack extra kwetsbaar omdat deze niet beschermd word door de Frogwatch behuizing. Zorg voor een veilige plek die geschikt is voor het doel:
+    - niet opladen of opslaan in een brandgevaarlijke omgeving
+    - niet opladen bij hoge omgevingstemperaturen (+40 ℃)
+    - minimaliseer risico op struikelen, contact met dieren, kinderen etc
+    - minimaliseer risico op beschadiging van de accupacks of oplader
+    - stop onmiddelijk bij (tijfel aan) beschadiging, hitte, vreemde geuren, etc
+
 * **Doe geen gevaarlijke dingen met een accupack:**<br>
-    - Steek deze nooit in brand
-    - Haal deze niet uit elkaar
-    - Probeer deze niet te repareren
-    - Sluit deze niet kort
     - Gebruik deze niet waar het niet voor bedoeld is
     - Vermijd situaties met hoge temperaturen (+60 ℃)
-    - Gooi nooit met accupacks
     - Vermijd contact met scherpe voorwerpen
+    - Probeer deze niet te repareren
+    - Haal deze niet uit elkaar
+    - Gooi nooit met accupacks
+    - Sluit deze niet kort
+    - Steek deze nooit in brand
+
 * **Gebruik nooit beschadigde accupacks**<br>
     - Als een accupack (al dan niet deels) beschadigd of versleten lijkt, of als er een vermoeden van beschadiging is (bijvoorbeeld door het laten vallen), dient de accupack niet meer gebruikt te worden en onmiddelijk te worden veiliggesteld om brandrisico's te minimaliseren.
     - Na een incident kant een batterij in eerste instantie nog ongevaarlijk lijken, maar een tijd later opeens toch een brandgevaar vormen.
